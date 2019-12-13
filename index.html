@@ -404,6 +404,22 @@
                 'circle-radius': 4,
             }
         });
+
+        map.addSource('secret-paths', {
+            'type': 'geojson',
+            'data': "https://gist.githubusercontent.com/jonathonwpowell/0f763d7655a4d85a701421214c1c4602/raw"
+        });
+
+        map.addLayer({
+            'id': 'secret-paths-layer',
+            'type': 'line',
+            'source': 'secret-paths',
+            'layout': {},
+            'paint': {
+                'line-color': "yellow",
+            }
+        });
+        
     })
 
 
