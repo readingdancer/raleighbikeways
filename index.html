@@ -17,6 +17,8 @@
             width: 100vw;
         }
 
+        .button { color: #fff; background-color: #555; padding: 1em; margin: 1em; position: absolute; right: 1em; top: 1em; border-radius: 0.5em; border-bottom: 2px #222 solid; cursor: pointer; }
+
         /* #header {
             position: absolute;
             top: 0;
@@ -137,7 +139,8 @@
 </head>
 
 <body>
-
+    <div id='resizeDiv' class='button'>Resize container</div>
+    <div id='resizeMap' class='button'>Fix map</div>
     <div id="map"></div>
 </body>
 
@@ -157,6 +160,31 @@
         },
         trackUserLocation: true
     }),'bottom-right');
+
+    map.on('load', function() {
+    var mapCanvas = document.getElementsByClassName('mapboxgl-canvas')[0];
+    var mapDiv = document.getElementById('map');
+    var breakButton = document.getElementById('resizeDiv');
+    var fixButton = document.getElementById('resizeMap');
+
+    var biggerSmaller;
+    breakButton.onclick = function() {
+        if (biggerSmaller !== 'smaller') {
+            mapDiv.style.width = '50%';
+            mapCanvas.style.width = '100%';
+            biggerSmaller = 'smaller';
+        } else {
+            mapDiv.style.width = '150%';
+            mapCanvas.style.width = '100%';
+            biggerSmaller = 'bigger';
+        }
+    }
+
+    fixButton.onclick = function() {
+        map.resize();
+    }
+
+});
 
 </script>
 
