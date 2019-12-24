@@ -1,0 +1,18 @@
+{
+  "name": "raleighbikeways",
+  "version": "1.0.0",
+  "description": "A website for navigating around Raleigh on a bike",
+  "main": "index.js",
+  "repository": "https://github.com/pboyer/raleighbikeways.git",
+  "author": "Peter Boyer",
+  "private": true,
+  "devDependencies": {
+    "css-loader": "^3.4.0",
+    "style-loader": "^1.1.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
+  "scripts": {
+    "build": "webpack --mode production"
+  }
+}

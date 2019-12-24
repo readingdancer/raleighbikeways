@@ -2,7 +2,6 @@
 
 <head>
     <title>Raleigh Bikeways</title>
-    <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.52.0/mapbox-gl.js'></script>
@@ -14,10 +13,11 @@
         href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css"
         type="text/css" />
 
+
     <!-- Flavicon Metadata -->
     <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
@@ -160,16 +160,11 @@
     </div>
     <div id="map"></div>
 </body>
+<script src="../dist/bundle.js"></script>
+<!-- <script type="module">
+    import * as mapStyles from "/mapbox-styling.js";
 
-<script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoicGV0ZXJib3llciIsImEiOiJjanF5aHpuYXAwMGhvNDl0MmRkN3F2cHpxIn0.cdJjFtN1PHLcMZTlGC1WNg'
-
-    const colors = {
-        CITRIX: '#f9423a',
-        PROGRAMMED: '#3498DB',
-        GREENWAY: '#28B463',
-        EXISTING: '#EEE',
-    }
+    mapboxgl.accessToken = 'pk.eyJ1IjoicGV0ZXJib3llciIsImEiOiJjanF5aHpuYXAwMGhvNDl0MmRkN3F2cHpxIn0.cdJjFtN1PHLcMZTlGC1WNg';
 
     const layers = {
         EXISTING: "existing-bike-facilities-layer",
@@ -194,63 +189,11 @@
         CITRIX: "citrix-cycle-stations",
     }
 
-    // Custom styling for the direction line
-    // Make it see through so user can see the bike infrastructure. 
-    const directionsStyling = [{
-        'id': 'directions-route-line',
-        'type': 'line',
-        'source': 'directions',
-        'layout': {
-            'line-cap': 'butt',
-            'line-join': 'round'
-        },
-        'paint': {
-            'line-color': {
-                'property': 'congestion',
-                'type': 'categorical',
-                'default': '#4882c5',
-                'stops': [
-                    ['unknown', '#4882c5'],
-                    ['low', '#4882c5'],
-                    ['moderate', '#f09a46'],
-                    ['heavy', '#e34341'],
-                    ['severe', '#8b2342']
-                ]
-            },
-            'line-width': 7,
-            'line-opacity': .5
-        },
-        'filter': [
-            'all',
-            ['in', '$type', 'LineString'],
-            ['in', 'route', 'selected']
-        ]
-    }, {
-        'id': 'directions-route-line-casing',
-        'type': 'line',
-        'source': 'directions',
-        'layout': {
-            'line-cap': 'round',
-            'line-join': 'round'
-        },
-        'paint': {
-            'line-color': '#2d5f99',
-            'line-width': 12,
-            'line-opacity': .5
-        },
-        'filter': [
-            'all',
-            ['in', '$type', 'LineString'],
-            ['in', 'route', 'selected']
-        ]
-    }];
-
-
     let map = new mapboxgl.Map({
         container: 'map',
         style: 'mapbox://styles/peterboyer/cjr49i1ql0mza2srxxtgqlpqw',
         center: [-78.638176, 35.779591],
-        zoom: 12
+        zoom: 12,
     });
 
     const geolocateControl = new mapboxgl.GeolocateControl({
@@ -276,7 +219,7 @@
     const directionContol = new MapboxDirections({
         accessToken: mapboxgl.accessToken,
         profile: "mapbox/cycling",
-        styles: directionsStyling,
+        styles: mapStyles.directionStyle,
         interactive: false,
         controls: {
             profileSwitcher: false,
@@ -353,38 +296,7 @@
             'type': 'line',
             'source': sources.EXISTING_FACILITIES,
             'layout': {},
-            'paint': {
-                'line-color': [
-                    'match',
-                    ['get', 'Type'],
-                    'Bike Lane', colors.EXISTING,
-                    'Bike Lane/Shared Lane Markings', colors.EXISTING,
-                    'Buffered Bike Lane', colors.EXISTING,
-                    'Buffered Bike Lane/Bike Lane', colors.EXISTING,
-                    'Buffered Bike Lane/Shared Lane Markings', colors.EXISTING,
-                    'Separated Bike Lane', colors.EXISTING,
-                    'Multi-Use Path', colors.EXISTING,
-                    // 'Neighborhood Bikeway', 'green',
-                    // 'Shared Lane Markings', 'aqua',
-                    // 'Unknown', 'red',
-                    'grey'
-                ],
-                'line-width': [
-                    'match',
-                    ['get', 'Type'],
-                    'Bike Lane', 1.5,
-                    'Bike Lane/Shared Lane Markings', 1.5,
-                    'Buffered Bike Lane', 2,
-                    'Buffered Bike Lane/Bike Lane', 2,
-                    'Buffered Bike Lane/Shared Lane Markings', 2,
-                    'Separated Bike Lane', 2,
-                    'Multi-Use Path', 1.5,
-                    // 'Neighborhood Bikeway', 1.5,
-                    // 'Shared Lane Markings', 1.5,
-                    // 'Unknown', 1.5,
-                    0
-                ]
-            }
+            'paint': mapStyles.layerStyles.RALEIGH_ROAD_EXISTING,
         });
 
         map.addLayer({
@@ -392,39 +304,7 @@
             'type': 'line',
             'source': sources.EXISTING_FACILITIES,
             'layout': {},
-            'paint': {
-                'line-color': [
-                    'match',
-                    ['get', 'Type'],
-                    // 'Bike Lane', 'blue',
-                    // 'Bike Lane/Shared Lane Markings', 'cyan',
-                    // 'Buffered Bike Lane', 'magenta',
-                    // 'Buffered Bike Lane/Bike Lane', 'yellow',
-                    // 'Buffered Bike Lane/Shared Lane Markings', colors.EXISTING,
-                    // 'Separated Bike Lane', 'blue',
-                    'Neighborhood Bikeway', colors.EXISTING,
-                    // 'Multi-Use Path', colors.EXISTING,
-                    'Shared Lane Markings', colors.EXISTING,
-                    'Unknown', colors.EXISTING,
-                    'grey'
-                ],
-                'line-width': [
-                    'match',
-                    ['get', 'Type'],
-                    // 'Bike Lane', 1.5,
-                    // 'Bike Lane/Shared Lane Markings', 1.5,
-                    // 'Buffered Bike Lane', 1.5,
-                    // 'Buffered Bike Lane/Bike Lane', 1.5,
-                    // 'Buffered Bike Lane/Shared Lane Markings', 1.5,
-                    // 'Separated Bike Lane', 1.5,
-                    'Neighborhood Bikeway', 1.5,
-                    // 'Multi-Use Path', 1.5,
-                    'Shared Lane Markings', 1.5,
-                    'Unknown', 1.5,
-                    0
-                ],
-                'line-dasharray': [1, 2]
-            }
+            'paint': mapStyles.layerStyles.RALEIGH_ROAD_EXISTING_DASHED,
         });
 
         map.addSource(sources.CARY_BIKES, {
@@ -437,17 +317,7 @@
             'type': 'line',
             'source': sources.CARY_BIKES,
             'layout': {},
-            'paint': {
-                'line-color': colors.EXISTING,
-                'line-width': [
-                    "match",
-                    ['get','FACILTYTYPE'],
-                    ['STRIPED'],1.5,
-                    ['PROTECTED BIKE LANES'],2,
-                    0
-                ],
-
-            }
+            'paint': mapStyles.layerStyles.CARY_ROAD_EXISTING,
         });
 
         map.addLayer({
@@ -455,22 +325,7 @@
             'type': 'line',
             'source': sources.CARY_BIKES,
             'layout': {},
-            'paint': {
-                'line-color': colors.EXISTING,
-                'line-width': [
-                    "match",
-                    ['get','FACILTYTYPE'],
-                    ['STRIPED','PROTECTED BIKE LANES'],0,
-                    1.5
-                ],
-                'line-opacity': [
-                    "match",
-                    ['get','SPEEDLIMIT'],
-                    ["25","25 MPH"],1,
-                    0
-                ],
-                'line-dasharray': [1, 2]
-            }
+            'paint': mapStyles.layerStyles.CARY_ROAD_EXISTING_DASHED,
         });
 
         map.addSource(sources.PROGRAMMED_FACILITIES, {
@@ -483,38 +338,7 @@
             'type': 'line',
             'source': sources.PROGRAMMED_FACILITIES,
             'layout': {},
-            'paint': {
-                'line-color': [
-                    'match',
-                    ['get', 'Type'],
-                    'Bike Lane', colors.PROGRAMMED,
-                    'Bike Lane/Shared Lane Markings', colors.PROGRAMMED,
-                    'Buffered Bike Lane', colors.PROGRAMMED,
-                    'Buffered Bike Lane/Bike Lane', colors.PROGRAMMED,
-                    'Buffered Bike Lane/Shared Lane Markings', colors.PROGRAMMED,
-                    'Separated Bike Lane', colors.PROGRAMMED,
-                    'Multi-Use Path', colors.PROGRAMMED,
-                    // 'Neighborhood Bikeway', colors.PROGRAMMED,
-                    // 'Shared Lane Markings', colors.PROGRAMMED,
-                    // 'Unknown', colors.PROGRAMMED,
-                    'grey'
-                ],
-                'line-width': [
-                    'match',
-                    ['get', 'Type'],
-                    'Bike Lane', 1.5,
-                    'Bike Lane/Shared Lane Markings', 1.5,
-                    'Buffered Bike Lane', 2,
-                    'Buffered Bike Lane/Bike Lane', 2,
-                    'Buffered Bike Lane/Shared Lane Markings', 2,
-                    'Separated Bike Lane', 2,
-                    'Multi-Use Path', 1.5,
-                    // 'Neighborhood Bikeway', 1.5,
-                    // 'Shared Lane Markings', 1.5,
-                    // 'Unknown', 1.5,
-                    0
-                ]
-            }
+            'paint': mapStyles.layerStyles.RALEIGH_ROAD_PROGRAMMED,
         });
 
         map.addLayer({
@@ -522,39 +346,7 @@
             'type': 'line',
             'source': sources.PROGRAMMED_FACILITIES,
             'layout': {},
-            'paint': {
-                'line-color': [
-                    'match',
-                    ['get', 'Type'],
-                    // 'Bike Lane', colors.EXISTING,
-                    // 'Bike Lane/Shared Lane Markings', colors.EXISTING,
-                    // 'Buffered Bike Lane', colors.EXISTING,
-                    // 'Buffered Bike Lane/Bike Lane', colors.EXISTING,
-                    // 'Buffered Bike Lane/Shared Lane Markings', colors.EXISTING,
-                    // 'Separated Bike Lane', colors.EXISTING,
-                    // 'Multi-Use Path', colors.EXISTING,
-                    'Neighborhood Bikeway', colors.PROGRAMMED,
-                    'Shared Lane Markings', colors.PROGRAMMED,
-                    'Unknown', colors.PROGRAMMED,
-                    'grey'
-                ],
-                'line-width': [
-                    'match',
-                    ['get', 'Type'],
-                    // 'Bike Lane', 1.5,
-                    // 'Bike Lane/Shared Lane Markings', 1.5,
-                    // 'Buffered Bike Lane', 1.5,
-                    // 'Buffered Bike Lane/Bike Lane', 1.5,
-                    // 'Buffered Bike Lane/Shared Lane Markings', 1.5,
-                    // 'Separated Bike Lane', 1.5,
-                    'Neighborhood Bikeway', 1.5,
-                    // 'Multi-Use Path', 1.5,
-                    'Shared Lane Markings', 1.5,
-                    'Unknown', 1.5,
-                    0
-                ],
-                'line-dasharray': [1, 2]
-            }
+            'paint': mapStyles.layerStyles.RALEIGH_ROAD_PROGRAMMED_DASHED,
         });
 
         map.addSource(sources.RALEIGH_GREENWAY, {
@@ -567,19 +359,7 @@
             'type': 'line',
             'source': sources.RALEIGH_GREENWAY,
             'layout': {},
-            'paint': {
-                'line-color': colors.GREENWAY,
-                'line-width': 1.5,
-                'line-opacity': [
-                    'case',
-                    //This will only show if the width is greater than 6 feet AND the path material is NOT gravel / natural
-                    ["all",
-                        ['>', ['get','WIDTH_FT'],6],
-                        ["match",["get","MATERIAL"],["Natural","Gravel"],false,true] 
-                    ],1,
-                    0,
-                ]
-            }
+            'paint': mapStyles.layerStyles.RALEIGH_GREENWAYS,
         });
 
         // We are using greenway width as a guess as to how bikable a section
@@ -590,20 +370,7 @@
             'type': 'line',
             'source': sources.RALEIGH_GREENWAY,
             'layout': {},
-            'paint': {
-                'line-color': colors.GREENWAY,
-                'line-width': 1.5,
-                'line-opacity': [
-                'case',
-                    //This will only show if the width is less than or equal to 6 feet OR the path material is gravel / natural
-                    ["all",
-                        ['>', ['get','WIDTH_FT'],6],
-                        ["match",["get","MATERIAL"],["Natural","Gravel"],false,true] 
-                    ],0,
-                    1,
-                ],
-                'line-dasharray': [1, 2]
-            }
+            'paint': mapStyles.layerStyles.RALEIGH_GREENWAYS_DASHED
         });
 
         map.addSource(sources.CARY_GREENWAY, {
@@ -616,19 +383,7 @@
             'type': 'line',
             'source': sources.CARY_GREENWAY,
             'layout': {},
-            'paint': {
-                'line-color': colors.GREENWAY,
-                'line-width': 1.5,
-                'line-opacity': [
-                    'case',
-                    //This will only show if the width is greater than 6 feet AND the path material is NOT gravel / aggregate / limestone
-                    ["all",
-                        ['>', ['get','WIDTH'],6],
-                        ["match",["get","SURFTYPE"],["Aggregate","Limestone","Gravel"],false,true] 
-                    ],1,
-                    0,
-                ]
-            }
+            'paint': mapStyles.layerStyles.CARY_GREENWAYS_EXISTING
         });
 
         map.addLayer({
@@ -636,19 +391,7 @@
             'type': 'line',
             'source': sources.CARY_GREENWAY,
             'layout': {},
-            'paint': {
-                'line-color': colors.GREENWAY,
-                'line-width': 1.5,
-                'line-opacity': [
-                    'case',
-                    ["all",
-                        ['>', ['get','WIDTH'],6],
-                        ["match",["get","SURFTYPE"],["Aggregate","Limestone","Gravel"],false,true] 
-                    ],0,
-                    1,
-                ],
-                'line-dasharray': [1, 2]
-            }
+            'paint': mapStyles.layerStyles.CARY_GREENWAYS_EXISTING_DASHED
         });
 
 
@@ -662,10 +405,7 @@
             'type': 'circle',
             'source': sources.CITRIX,
             'layout': {},
-            'paint': {
-                'circle-color': colors.CITRIX,
-                'circle-radius': 4,
-            }
+            'paint': mapStyles.layerStyles.CITRIX_CYCLE,
         });
 
         map.resize();
@@ -693,7 +433,6 @@
             showingDirectionsSection = true;
         }
     }
-
-</script>
+</script> -->
 
 </html>
