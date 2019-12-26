@@ -277,3 +277,6 @@ function toggleDirectionSection() {
         showingDirectionsSection = true;
     }
 }
+
+const showDirectionsContainer = document.getElementById('show-directions-container');
+showDirectionsContainer.addEventListener('click', toggleDirectionSection);
