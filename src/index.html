@@ -174,25 +174,11 @@
     <div id="map"></div>
 </body>
 <script src="../dist/bundle.js"></script>
+
 <!-- <script type="module">
     import * as mapStyles from "/mapbox-styling.js";
 
-<<<<<<< HEAD:src/index.html
     mapboxgl.accessToken = 'pk.eyJ1IjoicGV0ZXJib3llciIsImEiOiJjanF5aHpuYXAwMGhvNDl0MmRkN3F2cHpxIn0.cdJjFtN1PHLcMZTlGC1WNg';
-=======
-<script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoicGV0ZXJib3llciIsImEiOiJjanF5aHpuYXAwMGhvNDl0MmRkN3F2cHpxIn0.cdJjFtN1PHLcMZTlGC1WNg'
-
-    const colors = {
-        CITRIX: '#f9423a',
-        PROGRAMMED: '#3498DB',
-        GREENWAY: '#28B463',
-        GREENWAY_CLOSED: '#CC0000',
-        GREENWAY_CLOSED_X: '#FF0000',
-        GREENWAY_DETOUR: 'yellow',
-        EXISTING: '#EEE',
-    }
->>>>>>> master:index.html
 
     const layers = {
         EXISTING: "existing-bike-facilities-layer",
@@ -391,9 +377,6 @@
             'type': 'line',
             'source': sources.RALEIGH_GREENWAY,
             'layout': {},
-<<<<<<< HEAD:src/index.html
-            'paint': mapStyles.layerStyles.RALEIGH_GREENWAYS,
-=======
             'paint': {
                 'line-color': [
                     'match',
@@ -412,7 +395,6 @@
                     0,
                 ],
             }
->>>>>>> master:index.html
         });
 
         map.addLayer({
@@ -444,9 +426,6 @@
             'type': 'line',
             'source': sources.RALEIGH_GREENWAY,
             'layout': {},
-<<<<<<< HEAD:src/index.html
-            'paint': mapStyles.layerStyles.RALEIGH_GREENWAYS_DASHED
-=======
             'paint': {
                 'line-color': [
                     'match',
@@ -466,7 +445,6 @@
                 ],
                 'line-dasharray': [1, 2]
             }
->>>>>>> master:index.html
         });
 
         map.addSource(sources.GREENWAY_DETOUR, {

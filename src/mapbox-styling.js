@@ -4,6 +4,10 @@ const colors = {
     PROGRAMMED: '#3498DB',
     GREENWAY: '#28B463',
     EXISTING: '#EEE',
+    GREENWAY_CLOSED: '#CC0000',
+    GREENWAY_CLOSED_X: '#FF0000',
+    GREENWAY_DETOUR: 'yellow',
+
 }
 
 export const layerStyles = {
@@ -73,7 +77,12 @@ export const layerStyles = {
         'line-dasharray': [1, 2]
     },
     RALEIGH_GREENWAYS: {
-        'line-color': colors.GREENWAY,
+        'line-color': [
+            'match',
+                ['get', 'GWSTATUS'],
+                "CLOSED_TEMP",colors.GREENWAY_CLOSED,
+                colors.GREENWAY // We are leaving the alert status as normal, as it seems it should still be passable,
+        ],
         'line-width': 1.5,
         'line-opacity': [
             'case',
@@ -86,7 +95,12 @@ export const layerStyles = {
         ]
     },
     RALEIGH_GREENWAYS_DASHED: {
-        'line-color': colors.GREENWAY,
+        'line-color': [
+            'match',
+                ['get', 'GWSTATUS'],
+                "CLOSED_TEMP",colors.GREENWAY_CLOSED,
+                colors.GREENWAY // We are leaving the alert status as normal, as it seems it should still be passable,
+        ],
         'line-width': 1.5,
         'line-opacity': [
         'case',

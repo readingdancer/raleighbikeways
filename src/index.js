@@ -206,6 +206,26 @@ map.on('load', () => {
         'paint': mapStyles.layerStyles.RALEIGH_GREENWAYS,
     });
 
+    map.addLayer({
+        'id': layers.RALEIGH_GREENWAY_SYMBOL,
+        'type': 'symbol',
+        'source': sources.RALEIGH_GREENWAY,
+        'layout': {
+            'text-field': [                       
+                'match',
+                ['get', 'GWSTATUS'],
+                "CLOSED_TEMP", "X",
+                ""
+            ],
+            'symbol-placement': 'line-center',
+        },
+        'paint': {
+            'text-color': colors.GREENWAY_CLOSED_X,
+            'text-halo-width': 1,
+            'text-halo-color': 'black',
+        },
+    });
+
     // We are using greenway width as a guess as to how bikable a section
     // of greenway is.  If it is less than 7 ft wide we assume it is not easily bikeable
     // and make it dashed
