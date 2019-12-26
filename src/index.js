@@ -17,8 +17,10 @@ const layers = {
     PROGRAMMED_DASHED: "programmed-bike-facilities-dashed-layer",
     RALEIGH_GREENWAY: "existing-raleigh-greenways-layer",
     RALEIGH_GREENWAY_DASHED: "existing-raleigh-greenways-dashed-layer",
+    RALEIGH_GREENWAY_SYMBOL: "raleigh-greenway-symbol-layer",
     CARY_GREENWAY: "cary-greenways-layer",
     CARY_GREENWAY_DASHED: "cary-greenways-dashed-layer",
+    GREENWAY_DETOUR: "greenway-detour-layer",
     CARY_BIKES: "cary-bikes-layer",
     CARY_BIKES_DASHED: "cary-bikes-dashed-layer",
     CITRIX: 'citrix-cycle-stations-layer',
@@ -27,6 +29,7 @@ const layers = {
 const sources = {
     RALEIGH_GREENWAY: "existing-greenways-raleigh",
     CARY_GREENWAY: "cary-greenways",
+    GREENWAY_DETOUR: 'greenway-detour',
     CARY_BIKES: "cary-bikes",
     EXISTING_FACILITIES: "existing-bike-facilities",
     PROGRAMMED_FACILITIES: "programmed-bike-facilities",
@@ -127,6 +130,7 @@ let caryBikeQuery = `${caryBikeURL}/query?${caryBikeQueryParams}`;
 let existingBikeFacilitiesQuery = `${existingBikeFacilities}/query?${queryParams}`;
 let programmedBikeFacilitiesQuery = `${programmedBikeFacilities}/query?${queryParams}`;
 let citrixCycleStationsQuery = `${citrixCycleStations}/query?${citrixQuery}`;
+let greenwayDetourQuery = 'https://gist.githubusercontent.com/jonathonwpowell/51172dccc17cf8a832ff6566e700c2d8/raw/map.geojson';
 
 map.on('load', () => {
 
@@ -219,12 +223,21 @@ map.on('load', () => {
             ],
             'symbol-placement': 'line-center',
         },
-        'paint': {
-            'text-color': colors.GREENWAY_CLOSED_X,
-            'text-halo-width': 1,
-            'text-halo-color': 'black',
-        },
+        'paint': mapStyles.layerStyles.GREENWAY_CLOSED_SYMBOL,
     });
+
+    map.addSource(sources.GREENWAY_DETOUR, {
+        'type': 'geojson',
+        'data': greenwayDetourQuery,
+    });
+
+    map.addLayer({
+        'id': layers.GREENWAY_DETOUR,
+        'type': 'line',
+        'source': sources.GREENWAY_DETOUR,
+        'layout': {},
+        'paint': mapStyles.layerStyles.GREENWAYS_DETOURS,
+    })
 
     // We are using greenway width as a guess as to how bikable a section
     // of greenway is.  If it is less than 7 ft wide we assume it is not easily bikeable

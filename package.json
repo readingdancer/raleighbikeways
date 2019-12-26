@@ -15,6 +15,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "start:dev": "webpack-dev-server --progress"
+    "start:dev": "webpack-dev-server --progress",
+    "watch": "webpack --watch"
   }
 }

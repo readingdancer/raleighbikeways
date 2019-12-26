@@ -7,7 +7,6 @@ const colors = {
     GREENWAY_CLOSED: '#CC0000',
     GREENWAY_CLOSED_X: '#FF0000',
     GREENWAY_DETOUR: 'yellow',
-
 }
 
 export const layerStyles = {
@@ -112,6 +111,15 @@ export const layerStyles = {
             1,
         ],
         'line-dasharray': [1, 2]
+    },
+    GREENWAYS_DETOURS: {
+        'line-color': colors.GREENWAY_DETOUR,
+        'line-width': 1.5,
+    },
+    GREENWAY_CLOSED_SYMBOL: {
+        'text-color': colors.GREENWAY_CLOSED_X,
+        'text-halo-width': 1,
+        'text-halo-color': 'black',
     },
     RALEIGH_ROAD_PROGRAMMED: {
         'line-color': [

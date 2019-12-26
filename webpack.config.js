@@ -14,11 +14,11 @@ module.exports = {
         ]
       }]
     },
-    devServer: {
-        port: 9001,
-        open: true,
-        openPage: "src/index.html",
-        watchContentBase: true
-      }
+    // devServer: {
+    //     port: 9001,
+    //     open: true,
+    //     openPage: "src/index.html",
+    //     watchContentBase: true
+    //   }
   }
   
