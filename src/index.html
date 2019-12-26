@@ -74,7 +74,7 @@
             <table>
                 <tr>
                     <td>
-                        <input type="checkbox" class="legend-checkbox" onchange="legendToggleLayer(this);legendToggleLayer(this,layers.CARY_GREENWAY);"
+                        <input type="checkbox" class="legend-checkbox" onchange="legendToggleLayer(this);legendToggleLayer(this,layers.CARY_GREENWAY);legendToggleLayer(this,layers.RALEIGH_GREENWAY_SYMBOL);"
                             name="existing-raleigh-greenways-layer" checked>Greenways<br>
                     </td>
                     <td>
@@ -90,6 +90,19 @@
                     </td>
                     <td>
                         <svg height="10" width="100" class="greenway-legend">
+                            <line x1="0" y1="5" x2="20" y2="5" />
+                            <line x1="40" y1="5" x2="60" y2="5" />
+                            <line x1="80" y1="5" x2="100" y2="5" />
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" class="legend-checkbox" onchange="legendToggleLayer(this)"
+                            name="greenway-detour-layer" checked>Greenway Detours<br>
+                    </td>
+                    <td>
+                        <svg height="10" width="100" class="greenway-detour-legend">
                             <line x1="0" y1="5" x2="20" y2="5" />
                             <line x1="40" y1="5" x2="60" y2="5" />
                             <line x1="80" y1="5" x2="100" y2="5" />
@@ -164,7 +177,22 @@
 <!-- <script type="module">
     import * as mapStyles from "/mapbox-styling.js";
 
+<<<<<<< HEAD:src/index.html
     mapboxgl.accessToken = 'pk.eyJ1IjoicGV0ZXJib3llciIsImEiOiJjanF5aHpuYXAwMGhvNDl0MmRkN3F2cHpxIn0.cdJjFtN1PHLcMZTlGC1WNg';
+=======
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoicGV0ZXJib3llciIsImEiOiJjanF5aHpuYXAwMGhvNDl0MmRkN3F2cHpxIn0.cdJjFtN1PHLcMZTlGC1WNg'
+
+    const colors = {
+        CITRIX: '#f9423a',
+        PROGRAMMED: '#3498DB',
+        GREENWAY: '#28B463',
+        GREENWAY_CLOSED: '#CC0000',
+        GREENWAY_CLOSED_X: '#FF0000',
+        GREENWAY_DETOUR: 'yellow',
+        EXISTING: '#EEE',
+    }
+>>>>>>> master:index.html
 
     const layers = {
         EXISTING: "existing-bike-facilities-layer",
@@ -173,8 +201,10 @@
         PROGRAMMED_DASHED: "programmed-bike-facilities-dashed-layer",
         RALEIGH_GREENWAY: "existing-raleigh-greenways-layer",
         RALEIGH_GREENWAY_DASHED: "existing-raleigh-greenways-dashed-layer",
+        RALEIGH_GREENWAY_SYMBOL: "raleigh-greenway-symbol-layer",
         CARY_GREENWAY: "cary-greenways-layer",
         CARY_GREENWAY_DASHED: "cary-greenways-dashed-layer",
+        GREENWAY_DETOUR: "greenway-detour-layer",
         CARY_BIKES: "cary-bikes-layer",
         CARY_BIKES_DASHED: "cary-bikes-dashed-layer",
         CITRIX: 'citrix-cycle-stations-layer',
@@ -183,6 +213,7 @@
     const sources = {
         RALEIGH_GREENWAY: "existing-greenways-raleigh",
         CARY_GREENWAY: "cary-greenways",
+        GREENWAY_DETOUR: 'greenway-detour',
         CARY_BIKES: "cary-bikes",
         EXISTING_FACILITIES: "existing-bike-facilities",
         PROGRAMMED_FACILITIES: "programmed-bike-facilities",
@@ -283,6 +314,7 @@
     let existingBikeFacilitiesQuery = `${existingBikeFacilities}/query?${queryParams}`;
     let programmedBikeFacilitiesQuery = `${programmedBikeFacilities}/query?${queryParams}`;
     let citrixCycleStationsQuery = `${citrixCycleStations}/query?${citrixQuery}`;
+    let greenwayDetourQuery = 'https://gist.githubusercontent.com/jonathonwpowell/51172dccc17cf8a832ff6566e700c2d8/raw/map.geojson'
 
     map.on('load', () => {
 
@@ -359,8 +391,50 @@
             'type': 'line',
             'source': sources.RALEIGH_GREENWAY,
             'layout': {},
+<<<<<<< HEAD:src/index.html
             'paint': mapStyles.layerStyles.RALEIGH_GREENWAYS,
+=======
+            'paint': {
+                'line-color': [
+                    'match',
+                        ['get', 'GWSTATUS'],
+                        "CLOSED_TEMP",colors.GREENWAY_CLOSED,
+                        colors.GREENWAY // We are leaving the alert status as normal, as it seems it should still be passable,
+                ],
+                'line-width': 1.5,
+                'line-opacity': [
+                    'case',
+                    //This will only show if the width is greater than 6 feet AND the path material is NOT gravel / natural
+                    ["all",
+                        ['>', ['get','WIDTH_FT'],6],
+                        ["match",["get","MATERIAL"],["Natural","Gravel"],false,true] 
+                    ],1,
+                    0,
+                ],
+            }
+>>>>>>> master:index.html
         });
+
+        map.addLayer({
+            'id': layers.RALEIGH_GREENWAY_SYMBOL,
+            'type': 'symbol',
+            'source': sources.RALEIGH_GREENWAY,
+            'layout': {
+                'text-field': [                       
+                    'match',
+                    ['get', 'GWSTATUS'],
+                    "CLOSED_TEMP", "X",
+                    ""
+                ],
+                'symbol-placement': 'line-center',
+            },
+            'paint': {
+                'text-color': colors.GREENWAY_CLOSED_X,
+                'text-halo-width': 1,
+                'text-halo-color': 'black',
+            },
+        });
+
 
         // We are using greenway width as a guess as to how bikable a section
         // of greenway is.  If it is less than 7 ft wide we assume it is not easily bikeable
@@ -370,8 +444,46 @@
             'type': 'line',
             'source': sources.RALEIGH_GREENWAY,
             'layout': {},
+<<<<<<< HEAD:src/index.html
             'paint': mapStyles.layerStyles.RALEIGH_GREENWAYS_DASHED
+=======
+            'paint': {
+                'line-color': [
+                    'match',
+                        ['get', 'GWSTATUS'],
+                        "CLOSED_TEMP",colors.GREENWAY_CLOSED,
+                        colors.GREENWAY // We are leaving the alert status as normal, as it seems it should still be passable,
+                ],
+                'line-width': 1.5,
+                'line-opacity': [
+                'case',
+                    //This will only show if the width is less than or equal to 6 feet OR the path material is gravel / natural
+                    ["all",
+                        ['>', ['get','WIDTH_FT'],6],
+                        ["match",["get","MATERIAL"],["Natural","Gravel"],false,true] 
+                    ],0,
+                    1,
+                ],
+                'line-dasharray': [1, 2]
+            }
+>>>>>>> master:index.html
         });
+
+        map.addSource(sources.GREENWAY_DETOUR, {
+            'type': 'geojson',
+            'data': greenwayDetourQuery,
+        })
+
+        map.addLayer({
+            'id': layers.GREENWAY_DETOUR,
+            'type': 'line',
+            'source': sources.GREENWAY_DETOUR,
+            'layout': {},
+            'paint': {
+                'line-color': colors.GREENWAY_DETOUR,
+                'line-width': 1.5,
+            }
+        })
 
         map.addSource(sources.CARY_GREENWAY, {
             'type': 'geojson',
