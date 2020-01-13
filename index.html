@@ -684,30 +684,7 @@
             'data': existingRaleighGreenwaysQuery
         });
 
-        // map.addLayer({
-        //     'id': layers.RALEIGH_GREENWAY,
-        //     'type': 'line',
-        //     'source': sources.RALEIGH_GREENWAY,
-        //     'layout': {},
-        //     'paint': {
-        //         'line-color': [
-        //             'match',
-        //             ['get', 'GWSTATUS'],
-        //             "CLOSED_TEMP", colors.GREENWAY_CLOSED,
-        //             colors.GREENWAY // We are leaving the alert status as normal, as it seems it should still be passable,
-        //         ],
-        //         'line-width': 1.5,
-        //         'line-opacity': [
-        //             'case',
-        //             //This will only show if the width is greater than 6 feet AND the path material is NOT gravel / natural
-        //             ["all",
-        //                 ['>', ['get', 'WIDTH_FT'], 6],
-        //                 ["match", ["get", "MATERIAL"], ["Natural", "Gravel"], false, true]
-        //             ], 1,
-        //             0,
-        //         ],
-        //     }
-        // });
+
 
         // We are using greenway width as a guess as to how bikable a section
         // of greenway is.  If it is less than 7 ft wide we assume it is not easily bikeable
@@ -755,22 +732,22 @@
             }
         });
 
-        // map.addSource(sources.UMSTEAD, {
-        //     'type': 'geojson',
-        //     'data': umsteadQuery,
-        // });
+        map.addSource(sources.UMSTEAD, {
+            'type': 'geojson',
+            'data': umsteadQuery,
+        });
 
-        // map.addLayer({
-        //     'id': layers.UMSTEAD,
-        //     'type': 'line',
-        //     'source': sources.UMSTEAD,
-        //     'layout': {},
-        //     'paint': {
-        //         'line-color': colors.GREENWAY,
-        //         'line-width': 1.5,
-        //         'line-dasharray': [1, 2],
-        //     }
-        // });
+        map.addLayer({
+            'id': layers.UMSTEAD,
+            'type': 'line',
+            'source': sources.UMSTEAD,
+            'layout': {},
+            'paint': {
+                'line-color': colors.GREENWAY,
+                'line-width': 1.5,
+                'line-dasharray': [1, 2],
+            }
+        });
 
         // map.addSource(sources.CARY_GREENWAY, {
         //     'type': 'geojson',
@@ -864,17 +841,52 @@
                 'line-color': colors.GREENWAY,
                 'line-width': 1.5,
                 'line-opacity': ['case',
-                    ['any',
+                    ['all',
                         ['match',
                         ['get', 'highway'],
                         'cycleway', true, false], 
                         ['match',
-                        ['get', 'bicycle'],
-                        'designated', true, false],
+                        ['get', 'surface'],
+                        ['asphault','concrete','paved'], true, 
+                        ['woodchips','sand','unpaved'],false,
+                        true], 
+                        // ['match',
+                        // ['get', 'bicycle'],
+                        // 'designated', true, false],
                     ],
                     1,
                     0
                 ],
+            }
+        });
+
+        map.addLayer({
+            'id': "TEST_TEST",
+            'type': 'line',
+            'source': "DURHAM_GREENWAY_TEST",
+            'layout': {},
+            'paint': {
+                'line-color': colors.GREENWAY,
+                'line-width': 1.5,
+                'line-opacity': ['case',
+                    ['all',
+                        ['match',
+                        ['get', 'highway'],
+                        'cycleway', true, false], 
+                        ['match',
+                        ['get', 'surface'],
+                        ['asphalt','concrete','paved'], false, 
+                        ['woodchips','sand','unpaved'],true,
+                        false
+                        ], 
+                        // ['match',
+                        // ['get', 'bicycle'],
+                        // 'designated', true, false],
+                    ],
+                    1,
+                    0
+                ],
+                'line-dasharray': [1, 2],
             }
         });
 
@@ -1001,6 +1013,23 @@
         //         'line-dasharray': [1, 2],
         //     }
         // });
+
+        map.addLayer({
+            'id': layers.RALEIGH_GREENWAY,
+            'type': 'line',
+            'source': sources.RALEIGH_GREENWAY,
+            'layout': {},
+            'paint': {
+                'line-color': colors.GREENWAY_CLOSED,
+                'line-width': 1.5,
+                'line-opacity': [
+                    'match',
+                    ['get', 'GWSTATUS'],
+                    "CLOSED_TEMP", 1,
+                    0 
+                ],
+            }
+        });
 
         map.addSource(sources.CITRIX, {
             'type': 'geojson',
