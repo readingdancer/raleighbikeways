@@ -248,6 +248,16 @@ Otherwise the parent z-index makes things difficult */
     stroke-width: 8;
     padding-top: 5px;
 }
+.programmed-mid-legend {
+    stroke: white;
+    stroke-width: 8;
+    padding-top: 5px;
+}
+.programmed-far-legend {
+    stroke: yellow;
+    stroke-width: 8;
+    padding-top: 5px;
+}
 
 /* Meterial Icons Styles */
 .material-icons.md-18 { font-size: 18px; }
