@@ -177,6 +177,19 @@
                         </svg>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <input id="crash-checkbox" type="checkbox" class="legend-checkbox"
+                            onchange="legendToggleCrashLayer(this.checked)" checked>Bicycle Crash Locations
+                        <i class="material-icons md-18 noselect"
+                            onclick="document.getElementById('crash-info-container').style.display='block'">info</i>
+                    </td>
+                    <td>
+                        <svg height="24" width="24" class="existing-legend">
+                            <circle cx="12" cy="12" r="10" stroke="black" stroke-width="2" fill="yellow" />
+                        </svg>
+                    </td>
+                </tr>
             </table>
             <div id="feedback-button-container">
                 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeROy90gU_08wwKrasKIGHE4b-uOOUdohYK6ClDtKLd4zvQ1Q/viewform?usp=sf_link"
@@ -264,6 +277,19 @@
                 </span>
                 <br>
                 <img src="img/citrix.jpg" width="500" />
+            </div>
+            <br>
+        </div>
+    </div>
+	    <div id="crash-info-container" class="modal-container" onclick="this.style.display='none'" style="display: none;">
+        <div id="crash-info" class="modal legend-info" onclick="event.stopPropagation()">
+            <i class=" material-icons md-24 noselect close-button"
+                onclick="document.getElementById('crash-info-container').style.display='none'">close</i>
+            <div id="about">
+                <div class="legend-info-title">Bicycle Crash Points</div>
+                <span>
+                    Locations of crashes recorded by NC.DOT
+                </span>
             </div>
             <br>
         </div>
@@ -524,11 +550,10 @@
         outFields: "*",
         f: "geojson"
     });
-// 35.927195,-78.8566737,35.8437476,-78.7150955   --- 35.684334, -78.509886
+// 35.927195,-78.8566737,35.8437476,-78.7150955   --- 35.684334, -78.509886  36.193794, -79.339302   35.457438, -78.209557
     let crashQueryParams = queryString({
-        where: "1=1",
-		
-		geometry: "-78.8566737,35.927195,-78.509886,35.684334",
+        where: "1=1",		
+		geometry: "-79.339302,36.193794,-78.209557,35.457438",
 		geometryType: "esriGeometryEnvelope",
 		inSR: 4326,
         outSR: 4326,
@@ -1009,6 +1034,13 @@
         setCookie("hideCitrix", (!isChecked).toString(), 1000);
 
         setVisibilityProperty(layers.CITRIX, visibilityState);
+    }
+
+    function legendToggleCrashLayer(isChecked) {
+        var visibilityState = isChecked ? 'visible' : 'none';
+        setCookie("hideCrash", (!isChecked).toString(), 1000);
+
+        setVisibilityProperty(layers.CRASH, visibilityState);
     }
 
     function setVisibilityProperty(layer, isVisible) {
