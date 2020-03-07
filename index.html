@@ -343,6 +343,7 @@
         MINGO_GREENWAY_NAMES: 'mingo-greenway-names-layer',
         SMITH_GREENWAY_NAMES: 'smith-greenway-names-layer',
         CH_CARR_FACILITIES_DASHED: 'chapel-hill-carrboro-facilities-dashed',
+        COFFEE_SHOPS: 'coffee-shops-layer',
 
     }
 
@@ -361,6 +362,7 @@
         SMITH_GREENWAY: 'smith-greenway',
         CH_CARRBORO: 'chapel-hill-carrboro',
         OSM: 'osm-data',
+        COFFEE_SHOPS: 'coffee-shops',
     }
 
     // Custom styling for the direction line
@@ -543,6 +545,7 @@
     let durhamDashedQuery = 'data/durham_shared.geojson';
     let chCarrboroQuery = 'https://gist.githubusercontent.com/jonathonwpowell/23679b5c11f8108bc1aecad157475a8f/raw/ch-carrboro-bike-facilities.geojson';
     let osmQuery = 'https://raw.githubusercontent.com/oaksandspokes/bikeOsmExport/master/bikeInfra.geojson';
+    let coffeeShopsQuery = 'data/coffee_shops.geojson';
 
 
     map.on('style.load', () => {
@@ -597,6 +600,11 @@
 
     function addMapSources() {
 
+        map.addSource(sources.COFFEE_SHOPS, {
+            'type': 'geojson',
+            'data': coffeeShopsQuery,
+        })
+
         map.addSource(sources.OSM, {
             'type': 'geojson',
             'data': osmQuery,
@@ -649,6 +657,22 @@
     }
 
     function addMapLayers() {
+
+        map.addLayer({
+            'id': layers.COFFEE_SHOPS,
+            'type': 'symbol',
+            'source': sources.COFFEE_SHOPS,
+            'layout': {
+                'text-field': ['get', 'name'],
+                'symbol-placement': 'point',
+                'text-size': 14,
+            },
+            'paint': {
+                'text-color': 'red',
+                'text-halo-width': 1,
+                'text-halo-color': 'black',
+            },
+        });
 
         map.addLayer({
             'id': layers.RALEIGH_EXISTING_DASHED,

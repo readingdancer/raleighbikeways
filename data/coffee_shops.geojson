@@ -1,0 +1,4151 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2020-03-07T00:22:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28000249",
+        "addr:city": "Durham",
+        "addr:country": "US",
+        "addr:housenumber": "714",
+        "addr:postcode": "27705",
+        "addr:state": "NC",
+        "addr:street": "9th Street",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "9th Street Coffee and Juice Bar",
+        "source:addr": "Durham Open Data"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.9216529,
+              36.0081721
+            ],
+            [
+              -78.9216388,
+              36.0083645
+            ],
+            [
+              -78.9217193,
+              36.0083673
+            ],
+            [
+              -78.9220285,
+              36.008378
+            ],
+            [
+              -78.922039,
+              36.0081932
+            ],
+            [
+              -78.9218762,
+              36.0081881
+            ],
+            [
+              -78.9216529,
+              36.0081721
+            ]
+          ]
+        ]
+      },
+      "id": "way/28000249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28788290",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Sprout Cafe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.8974115,
+              36.0309608
+            ],
+            [
+              -78.8972908,
+              36.0306962
+            ],
+            [
+              -78.8971459,
+              36.0307396
+            ],
+            [
+              -78.8972693,
+              36.0310064
+            ],
+            [
+              -78.8974115,
+              36.0309608
+            ]
+          ]
+        ]
+      },
+      "id": "way/28788290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44108882",
+        "addr:city": "Durham",
+        "addr:country": "US",
+        "addr:housenumber": "706",
+        "addr:postcode": "27705",
+        "addr:state": "NC",
+        "addr:street": "9th Street",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Francesca's Dessert Cafe",
+        "source:addr": "Durham Open Data"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.9220442,
+              36.0080935
+            ],
+            [
+              -78.9220462,
+              36.0079658
+            ],
+            [
+              -78.9218798,
+              36.0079601
+            ],
+            [
+              -78.921716,
+              36.0079503
+            ],
+            [
+              -78.9217036,
+              36.008057
+            ],
+            [
+              -78.9220442,
+              36.0080935
+            ]
+          ]
+        ]
+      },
+      "id": "way/44108882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44324354",
+        "addr:city": "Chapel Hill",
+        "addr:housenumber": "1215 A",
+        "addr:postcode": "27514",
+        "addr:state": "NC",
+        "addr:street": "East Franklin Street",
+        "amenity": "cafe",
+        "attribution": "City of Chapel Hill (http://gis.townofchapelhill.org/disclaimer.asp?/download_data/)",
+        "building": "yes",
+        "name": "Caffè Driade",
+        "opening_hours": "Mo-Th 07:00-23:00; Fr-Sa 07:00-24:00; Su 08:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+1 919 942 2333",
+        "source": "CCH",
+        "website": "https://www.caffedriade.com"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.0379526,
+              35.9256793
+            ],
+            [
+              -79.0379292,
+              35.925693
+            ],
+            [
+              -79.0379171,
+              35.9256794
+            ],
+            [
+              -79.0379052,
+              35.9256864
+            ],
+            [
+              -79.0378946,
+              35.9256926
+            ],
+            [
+              -79.0379076,
+              35.9257072
+            ],
+            [
+              -79.0378819,
+              35.9257223
+            ],
+            [
+              -79.0379075,
+              35.9257512
+            ],
+            [
+              -79.0378719,
+              35.925772
+            ],
+            [
+              -79.0378738,
+              35.9257742
+            ],
+            [
+              -79.0378594,
+              35.9257827
+            ],
+            [
+              -79.0378742,
+              35.9257995
+            ],
+            [
+              -79.0378903,
+              35.9257901
+            ],
+            [
+              -79.037901,
+              35.9258022
+            ],
+            [
+              -79.0380106,
+              35.925738
+            ],
+            [
+              -79.0379926,
+              35.9257178
+            ],
+            [
+              -79.0380044,
+              35.9257108
+            ],
+            [
+              -79.0379892,
+              35.9256936
+            ],
+            [
+              -79.0379734,
+              35.9257029
+            ],
+            [
+              -79.0379526,
+              35.9256793
+            ]
+          ]
+        ]
+      },
+      "id": "way/44324354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/44326200",
+        "addr:city": "Chapel Hill",
+        "addr:housenumber": "1408",
+        "addr:postcode": "27514",
+        "addr:state": "NC",
+        "addr:street": "East Franklin Street",
+        "amenity": "cafe",
+        "attribution": "City of Chapel Hill (http://gis.townofchapelhill.org/disclaimer.asp?/download_data/)",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "brand:wikipedia": "en:Caribou Coffee",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "no",
+        "internet_access": "yes",
+        "name": "Caribou Coffee",
+        "source": "CCH",
+        "source:address": "Chapel Hill Open Data",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.0339959,
+              35.9285507
+            ],
+            [
+              -79.033903,
+              35.928758
+            ],
+            [
+              -79.0339557,
+              35.9287735
+            ],
+            [
+              -79.0340267,
+              35.9287943
+            ],
+            [
+              -79.0341197,
+              35.9285872
+            ],
+            [
+              -79.0339959,
+              35.9285507
+            ]
+          ]
+        ]
+      },
+      "id": "way/44326200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47777124",
+        "amenity": "cafe",
+        "building": "yes",
+        "building:use": "commercial",
+        "cuisine": "turkish",
+        "name": "Sahara Hookah Cafe",
+        "source": "WakeGIS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.6490896,
+              35.7889979
+            ],
+            [
+              -78.6491406,
+              35.7889994
+            ],
+            [
+              -78.6491407,
+              35.7889905
+            ],
+            [
+              -78.6491926,
+              35.788991
+            ],
+            [
+              -78.649193,
+              35.7889573
+            ],
+            [
+              -78.6491451,
+              35.7889569
+            ],
+            [
+              -78.649147,
+              35.7888099
+            ],
+            [
+              -78.6490723,
+              35.7888094
+            ],
+            [
+              -78.6490702,
+              35.7889782
+            ],
+            [
+              -78.6490899,
+              35.7889783
+            ],
+            [
+              -78.6490896,
+              35.7889979
+            ]
+          ]
+        ]
+      },
+      "id": "way/47777124"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47777255",
+        "addr:city": "Raleigh",
+        "addr:country": "US",
+        "addr:housenumber": "609",
+        "addr:postcode": "27605",
+        "addr:state": "NC",
+        "addr:street": "West Peace Street",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "building": "yes",
+        "building:use": "commercial",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "phone": "+1-919-754-9007",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store/11183"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.6477961,
+              35.7882416
+            ],
+            [
+              -78.6477886,
+              35.7884388
+            ],
+            [
+              -78.6479165,
+              35.7884421
+            ],
+            [
+              -78.6479234,
+              35.7882595
+            ],
+            [
+              -78.6478829,
+              35.7882584
+            ],
+            [
+              -78.6478835,
+              35.7882438
+            ],
+            [
+              -78.6477961,
+              35.7882416
+            ]
+          ]
+        ]
+      },
+      "id": "way/47777255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47777338",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "building": "yes",
+        "building:use": "commercial",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "source": "WakeGIS",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.6619279,
+              35.7906476
+            ],
+            [
+              -78.6616596,
+              35.790649
+            ],
+            [
+              -78.6616605,
+              35.7907654
+            ],
+            [
+              -78.6619288,
+              35.790764
+            ],
+            [
+              -78.6619279,
+              35.7906476
+            ]
+          ]
+        ]
+      },
+      "id": "way/47777338"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47777581",
+        "addr:city": "Raleigh",
+        "addr:housenumber": "3300",
+        "addr:postcode": "27612",
+        "addr:state": "NC",
+        "addr:street": "Duraleigh Road",
+        "amenity": "cafe",
+        "building": "yes",
+        "building:use": "commercial",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Su 06:00-20:00",
+        "source": "WakeGIS"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.7087057,
+              35.8252023
+            ],
+            [
+              -78.70864,
+              35.825215
+            ],
+            [
+              -78.708534,
+              35.8253394
+            ],
+            [
+              -78.7086794,
+              35.8254215
+            ],
+            [
+              -78.7088379,
+              35.8252353
+            ],
+            [
+              -78.7087297,
+              35.8251742
+            ],
+            [
+              -78.7087057,
+              35.8252023
+            ]
+          ]
+        ]
+      },
+      "id": "way/47777581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47837351",
+        "addr:city": "Raleigh",
+        "addr:housenumber": "9441",
+        "addr:postcode": "27615",
+        "addr:state": "NC",
+        "addr:street": "Strickland Road",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "building": "yes",
+        "building:use": "commercial",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "source": "WakeGIS",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.6542891,
+              35.9009817
+            ],
+            [
+              -78.6543016,
+              35.9009841
+            ],
+            [
+              -78.6543046,
+              35.9009847
+            ],
+            [
+              -78.6542876,
+              35.9010421
+            ],
+            [
+              -78.6544069,
+              35.9010655
+            ],
+            [
+              -78.6544317,
+              35.9009821
+            ],
+            [
+              -78.6544439,
+              35.9009844
+            ],
+            [
+              -78.6544642,
+              35.9009165
+            ],
+            [
+              -78.6544496,
+              35.9009137
+            ],
+            [
+              -78.6544651,
+              35.9008618
+            ],
+            [
+              -78.6544809,
+              35.9008649
+            ],
+            [
+              -78.6544884,
+              35.9008394
+            ],
+            [
+              -78.6543583,
+              35.9008138
+            ],
+            [
+              -78.6543371,
+              35.9008857
+            ],
+            [
+              -78.6543187,
+              35.900882
+            ],
+            [
+              -78.6542891,
+              35.9009817
+            ]
+          ]
+        ]
+      },
+      "id": "way/47837351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/47933425",
+        "addr:city": "Raleigh",
+        "addr:housenumber": "3800",
+        "addr:postcode": "27607",
+        "addr:state": "NC",
+        "addr:street": "Lake Boone Trail",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "building": "yes",
+        "building:use": "commercial",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "source": "WakeGIS",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.6937511,
+              35.816291
+            ],
+            [
+              -78.6938391,
+              35.816284
+            ],
+            [
+              -78.6938286,
+              35.8161975
+            ],
+            [
+              -78.6939501,
+              35.8161876
+            ],
+            [
+              -78.6939446,
+              35.8161421
+            ],
+            [
+              -78.6938735,
+              35.8161478
+            ],
+            [
+              -78.6938705,
+              35.8161225
+            ],
+            [
+              -78.6938786,
+              35.8161219
+            ],
+            [
+              -78.6938763,
+              35.8161043
+            ],
+            [
+              -78.6938659,
+              35.816105
+            ],
+            [
+              -78.6938615,
+              35.8160687
+            ],
+            [
+              -78.6937986,
+              35.8160738
+            ],
+            [
+              -78.6937978,
+              35.8160666
+            ],
+            [
+              -78.6937219,
+              35.8160726
+            ],
+            [
+              -78.6937224,
+              35.8160802
+            ],
+            [
+              -78.693653,
+              35.8160857
+            ],
+            [
+              -78.6936638,
+              35.8161749
+            ],
+            [
+              -78.693652,
+              35.8161758
+            ],
+            [
+              -78.6936565,
+              35.8162131
+            ],
+            [
+              -78.6937408,
+              35.8162063
+            ],
+            [
+              -78.6937511,
+              35.816291
+            ]
+          ]
+        ]
+      },
+      "id": "way/47933425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/79059885",
+        "addr:city": "Durham",
+        "addr:country": "US",
+        "addr:housenumber": "420",
+        "addr:postcode": "27701",
+        "addr:state": "NC",
+        "addr:street": "West Geer Street",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Cocoa Cinnamon",
+        "source:addr": "Durham Open Data",
+        "survey:date": "2014-03-08",
+        "website": "http://www.cocoacinnamon.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.9010029,
+              36.0039282
+            ],
+            [
+              -78.9010043,
+              36.0039944
+            ],
+            [
+              -78.9011553,
+              36.0039924
+            ],
+            [
+              -78.901154,
+              36.0039261
+            ],
+            [
+              -78.9010029,
+              36.0039282
+            ]
+          ]
+        ]
+      },
+      "id": "way/79059885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/208507611",
+        "addr:city": "Cary",
+        "addr:housenumber": "2840",
+        "addr:postcode": "27519-5685",
+        "addr:street": "NC Highway 55",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "building": "commercial",
+        "contact:phone": "+1 919 387 3482",
+        "contact:website": "http://www.starbucks.com/store/10097/",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "name": "Starbucks",
+        "opening_hours": "Mo-Fr 05:30-21:30;Sa 06:00-21:30;Su 06:30-20:30",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.8698727,
+              35.789723
+            ],
+            [
+              -78.8701123,
+              35.7897362
+            ],
+            [
+              -78.8701178,
+              35.7896702
+            ],
+            [
+              -78.8698782,
+              35.789657
+            ],
+            [
+              -78.8698727,
+              35.789723
+            ]
+          ]
+        ]
+      },
+      "id": "way/208507611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/209632660",
+        "addr:city": "Raleigh",
+        "addr:country": "US",
+        "addr:housenumber": "10",
+        "addr:postcode": "27601",
+        "addr:state": "NC",
+        "addr:street": "East Hargett Street",
+        "amenity": "cafe",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Morning Times",
+        "phone": "+1-919-836-1204",
+        "website": "https://www.morningtimes-raleigh.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.638699,
+              35.7781575
+            ],
+            [
+              -78.6388221,
+              35.7781615
+            ],
+            [
+              -78.6388246,
+              35.7781125
+            ],
+            [
+              -78.638827,
+              35.778064
+            ],
+            [
+              -78.638704,
+              35.7780599
+            ],
+            [
+              -78.638699,
+              35.7781575
+            ]
+          ]
+        ]
+      },
+      "id": "way/209632660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/212911784",
+        "addr:city": "Fuquay-Varina",
+        "addr:housenumber": "1380",
+        "addr:postcode": "27526",
+        "addr:state": "NC",
+        "addr:street": "North Main Street",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "drive_through": "yes",
+        "internet_access": "yes",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.7751654,
+              35.5916948
+            ],
+            [
+              -78.7750933,
+              35.5917121
+            ],
+            [
+              -78.7751618,
+              35.5919007
+            ],
+            [
+              -78.7752339,
+              35.5918834
+            ],
+            [
+              -78.7751654,
+              35.5916948
+            ]
+          ]
+        ]
+      },
+      "id": "way/212911784"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340855505",
+        "addr:city": "Durham",
+        "addr:housenumber": "2013",
+        "addr:postcode": "27707",
+        "addr:state": "NC",
+        "addr:street": "Chapel Hill Road",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Cocoa Cinnamon",
+        "source:addr": "Durham Open Data"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.9274901,
+              35.9865632
+            ],
+            [
+              -78.927363,
+              35.986358
+            ],
+            [
+              -78.9272432,
+              35.9864066
+            ],
+            [
+              -78.9273702,
+              35.9866118
+            ],
+            [
+              -78.9274901,
+              35.9865632
+            ]
+          ]
+        ]
+      },
+      "id": "way/340855505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/401121947",
+        "addr:city": "Durham",
+        "addr:housenumber": "4834",
+        "addr:postcode": "27713",
+        "addr:state": "NC",
+        "addr:street": "NC Highway 55",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "source:addr": "Durham Open Data",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.8971891,
+              35.899533
+            ],
+            [
+              -78.8972591,
+              35.8993131
+            ],
+            [
+              -78.8971327,
+              35.8992857
+            ],
+            [
+              -78.8971187,
+              35.89933
+            ],
+            [
+              -78.8970587,
+              35.8993571
+            ],
+            [
+              -78.8970193,
+              35.8994974
+            ],
+            [
+              -78.8971891,
+              35.899533
+            ]
+          ]
+        ]
+      },
+      "id": "way/401121947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/448415488",
+        "addr:city": "Cary",
+        "addr:housenumber": "220",
+        "addr:postcode": "27511",
+        "addr:state": "NC",
+        "addr:street": "West Chatham Street",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "La Farm Bakery",
+        "opening_hours": "Mo-Sa 07:00-18:00, Su 08:00-16:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.7840941,
+              35.7872144
+            ],
+            [
+              -78.7836589,
+              35.7872532
+            ],
+            [
+              -78.7836651,
+              35.7872991
+            ],
+            [
+              -78.7836772,
+              35.787298
+            ],
+            [
+              -78.7837219,
+              35.7876279
+            ],
+            [
+              -78.7841255,
+              35.7875919
+            ],
+            [
+              -78.7840828,
+              35.7872624
+            ],
+            [
+              -78.7841003,
+              35.7872606
+            ],
+            [
+              -78.7840941,
+              35.7872144
+            ]
+          ]
+        ]
+      },
+      "id": "way/448415488"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/515061712",
+        "amenity": "cafe",
+        "building": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Honeysuckle Tea House",
+        "outdoor_seating": "yes",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -79.152988,
+              35.943446
+            ],
+            [
+              -79.1528153,
+              35.9434119
+            ],
+            [
+              -79.1527809,
+              35.9435262
+            ],
+            [
+              -79.1529536,
+              35.9435602
+            ],
+            [
+              -79.1529687,
+              35.9435102
+            ],
+            [
+              -79.152988,
+              35.943446
+            ]
+          ]
+        ]
+      },
+      "id": "way/515061712"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530090686",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.8474525,
+              35.6626828
+            ],
+            [
+              -78.8472902,
+              35.6625695
+            ],
+            [
+              -78.8472191,
+              35.6626283
+            ],
+            [
+              -78.8473841,
+              35.6627471
+            ],
+            [
+              -78.8474525,
+              35.6626828
+            ]
+          ]
+        ]
+      },
+      "id": "way/530090686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/544442630",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "name": "Coffee Shop",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.4769659,
+              36.024995
+            ],
+            [
+              -78.4769525,
+              36.0249494
+            ],
+            [
+              -78.4769096,
+              36.0249559
+            ],
+            [
+              -78.4769203,
+              36.0249993
+            ],
+            [
+              -78.4769659,
+              36.024995
+            ]
+          ]
+        ]
+      },
+      "id": "way/544442630"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/550172603",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.8301447,
+              35.7467458
+            ],
+            [
+              -78.8301943,
+              35.7466535
+            ],
+            [
+              -78.8302378,
+              35.7465667
+            ],
+            [
+              -78.8301289,
+              35.7465322
+            ],
+            [
+              -78.8300846,
+              35.7466207
+            ],
+            [
+              -78.8300617,
+              35.7466144
+            ],
+            [
+              -78.8300228,
+              35.7467032
+            ],
+            [
+              -78.830111,
+              35.7467364
+            ],
+            [
+              -78.8301447,
+              35.7467458
+            ]
+          ]
+        ]
+      },
+      "id": "way/550172603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/595618099",
+        "addr:city": "Wendell",
+        "addr:housenumber": "320",
+        "addr:postcode": "27591",
+        "addr:state": "NC",
+        "addr:street": "Vintage Point Ln",
+        "amenity": "cafe",
+        "building": "yes",
+        "internet_access": "yes",
+        "name": "The Farmhouse",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.428549,
+              35.7713632
+            ],
+            [
+              -78.4283392,
+              35.7716389
+            ],
+            [
+              -78.4285007,
+              35.7717202
+            ],
+            [
+              -78.4285731,
+              35.7716238
+            ],
+            [
+              -78.4285935,
+              35.7716358
+            ],
+            [
+              -78.4287235,
+              35.7714596
+            ],
+            [
+              -78.428549,
+              35.7713632
+            ]
+          ]
+        ]
+      },
+      "id": "way/595618099"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/607151485",
+        "addr:city": "Cary",
+        "addr:housenumber": "3511",
+        "addr:postcode": "27518",
+        "addr:state": "NC",
+        "addr:street": "Kildaire Farm Road",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "donut",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Dunkin' Donuts",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "outdoor_seating": "no",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.7938618,
+              35.7021781
+            ],
+            [
+              -78.7940967,
+              35.702192
+            ],
+            [
+              -78.794104,
+              35.7021107
+            ],
+            [
+              -78.7938691,
+              35.7020968
+            ],
+            [
+              -78.7938618,
+              35.7021781
+            ]
+          ]
+        ]
+      },
+      "id": "way/607151485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/634042956",
+        "amenity": "cafe",
+        "building": "yes",
+        "name": "Starbucks"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.7831473,
+              35.764022
+            ],
+            [
+              -78.783146,
+              35.7639779
+            ],
+            [
+              -78.7831615,
+              35.7639776
+            ],
+            [
+              -78.7831607,
+              35.7639478
+            ],
+            [
+              -78.7831437,
+              35.7639481
+            ],
+            [
+              -78.7831434,
+              35.7639381
+            ],
+            [
+              -78.7831586,
+              35.7639378
+            ],
+            [
+              -78.7831561,
+              35.7638564
+            ],
+            [
+              -78.7831403,
+              35.7638567
+            ],
+            [
+              -78.7831386,
+              35.7637982
+            ],
+            [
+              -78.7830363,
+              35.7638002
+            ],
+            [
+              -78.7830391,
+              35.7638961
+            ],
+            [
+              -78.7830222,
+              35.7638965
+            ],
+            [
+              -78.7830234,
+              35.7639385
+            ],
+            [
+              -78.7830407,
+              35.7639381
+            ],
+            [
+              -78.7830433,
+              35.764024
+            ],
+            [
+              -78.7831473,
+              35.764022
+            ]
+          ]
+        ]
+      },
+      "id": "way/634042956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/697187543",
+        "amenity": "cafe",
+        "building": "yes",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Twinnies Cafe"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -78.9399345,
+              36.0034634
+            ],
+            [
+              -78.939864,
+              36.0034319
+            ],
+            [
+              -78.9397956,
+              36.0035509
+            ],
+            [
+              -78.9398556,
+              36.0035779
+            ],
+            [
+              -78.9399345,
+              36.0034634
+            ]
+          ]
+        ]
+      },
+      "id": "way/697187543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/265610373",
+        "amenity": "cafe",
+        "name": "Joe Van Gogh",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9190214,
+          36.015811
+        ]
+      },
+      "id": "node/265610373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/299508059",
+        "addr:city": "Durham",
+        "addr:housenumber": "1802",
+        "addr:postcode": "27705",
+        "addr:state": "NC",
+        "addr:street": "West Main Street",
+        "amenity": "cafe",
+        "contact:email": "info@madhatterbakeshop.com",
+        "contact:facebook": "madhatterdurham",
+        "contact:instagram": "madhatterdurham",
+        "contact:phone": "+1-919-286-1987",
+        "contact:pinterest": "MadhatterDurham",
+        "contact:twitter": "MadHatterDurham",
+        "contact:website": "https://madhatterbakeshop.com",
+        "cuisine": "breakfast;coffee_shop;cake;tea;sandwich;american",
+        "internet_access": "wlan",
+        "name": "Mad Hatter's Bake Shop",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9200983,
+          36.0063611
+        ]
+      },
+      "id": "node/299508059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/318709615",
+        "amenity": "cafe",
+        "name": "Starbuck's Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6019808,
+          35.9048286
+        ]
+      },
+      "id": "node/318709615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/484177896",
+        "addr:city": "Wake Forest",
+        "addr:housenumber": "156",
+        "addr:postcode": "27587",
+        "addr:state": "NC",
+        "addr:street": "South White Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "internet_access:ssid": "WakeForestCoffee2g and WakeForestCoffee5g",
+        "name": "Wake Forest Coffee Company",
+        "opening_hours": "Saturday 6:30AM–10PM Sunday 8AM–10PM Monday 6:30AM–10PM Tuesday 6:30AM–10PM Wednesday 6:30AM–10PM Thursday 6:30AM–10PM Friday 6:30AM–10PM",
+        "outdoor_seating": "yes",
+        "phone": "(919) 554-8914",
+        "smoking": "no",
+        "website": "http://wakeforestcoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5099687,
+          35.9779181
+        ]
+      },
+      "id": "node/484177896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/536179106",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Espressoasis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0540659,
+          35.908137
+        ]
+      },
+      "id": "node/536179106"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/553748730",
+        "amenity": "cafe",
+        "name": "Beyu Blue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.940604,
+          36.0008659
+        ]
+      },
+      "id": "node/553748730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/564718038",
+        "addr:city": "Chapel Hill",
+        "addr:country": "US",
+        "addr:housenumber": "103",
+        "addr:postcode": "27514",
+        "addr:state": "NC",
+        "addr:street": "East Franklin Street",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "contact:phone": "+1 919 932 3824",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Sa 06:00-23:00;Su 06:30-21:00",
+        "operator": "Starbucks",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0556009,
+          35.9134017
+        ]
+      },
+      "id": "node/564718038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/616185745",
+        "addr:city": "Chapel Hill",
+        "addr:country": "US",
+        "addr:housenumber": "750",
+        "addr:postcode": "27516;27514",
+        "addr:state": "NC",
+        "addr:street": "Martin Luther King Junior Boulevard",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "Root Cellar",
+        "phone": "+1 919 967 3663",
+        "source:addr": "Chapel Hill Open Data"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0535582,
+          35.9242756
+        ]
+      },
+      "id": "node/616185745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672573118",
+        "amenity": "cafe",
+        "name": "Tar Heel Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0544282,
+          35.9036194
+        ]
+      },
+      "id": "node/672573118"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672573183",
+        "amenity": "cafe",
+        "name": "The Kind Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0534572,
+          35.9015945
+        ]
+      },
+      "id": "node/672573183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/672573212",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0503137,
+          35.9046883
+        ]
+      },
+      "id": "node/672573212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/682372374",
+        "addr:city": "Cary",
+        "addr:country": "US",
+        "addr:housenumber": "125",
+        "addr:postcode": "27513",
+        "addr:state": "NC",
+        "addr:street": "Weston Parkway",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "opening_hours": "Mo-Fr 05:30-21:00; Sa 06:00-21:00; Su 06:30-21:00",
+        "phone": "+1-919-677-6104",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7708257,
+          35.827078
+        ]
+      },
+      "id": "node/682372374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/682372386",
+        "addr:city": "Cary",
+        "addr:country": "US",
+        "addr:housenumber": "137",
+        "addr:postcode": "27513",
+        "addr:state": "NC",
+        "addr:street": "Weston Parkway",
+        "amenity": "cafe",
+        "fax": "+1-919-678-8711",
+        "name": "Cafe Carolina and Bakery",
+        "opening_hours": "Mo-Sa 07:00-20:00; Su 08:00-18:00",
+        "phone": "+1-919-678-8855",
+        "website": "https://cafecarolina.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.771159,
+          35.827264
+        ]
+      },
+      "id": "node/682372386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/690642164",
+        "amenity": "cafe",
+        "name": "Verde Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.925547,
+          36.008172
+        ]
+      },
+      "id": "node/690642164"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/748177715",
+        "addr:city": "Durham",
+        "addr:country": "US",
+        "addr:housenumber": "105",
+        "addr:state": "NC",
+        "addr:street": "West NC Highway 54",
+        "amenity": "cafe",
+        "contact:phone": "+1-919-484-2499",
+        "contact:website": "http://www.beantraderscoffee.com/",
+        "cuisine": "coffee_shop",
+        "fixme": "add addr:unit",
+        "internet_access": "wlan",
+        "name": "Bean Traders",
+        "opening_hours": "Mo-Th 06:00-20:00; Fr 06:00-22:00; Sa 07:00-22:00; Su 07:00-18:00",
+        "outdoor_seating": "yes",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9387953,
+          35.9096648
+        ]
+      },
+      "id": "node/748177715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/839251195",
+        "addr:city": "Raleigh",
+        "addr:housenumber": "7498",
+        "addr:postcode": "27613",
+        "addr:state": "NC",
+        "addr:street": "Creedmoor Road",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6786676,
+          35.8877612
+        ]
+      },
+      "id": "node/839251195"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/904099413",
+        "amenity": "cafe",
+        "name": "Guitar Shope"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5887992,
+          35.9075855
+        ]
+      },
+      "id": "node/904099413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/904124147",
+        "amenity": "cafe",
+        "name": "Cafe Bongiorno"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5647342,
+          35.9294585
+        ]
+      },
+      "id": "node/904124147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/904137922",
+        "amenity": "cafe",
+        "name": "New York Bagel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6260518,
+          35.8934294
+        ]
+      },
+      "id": "node/904137922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/904273072",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.540938,
+          35.9433313
+        ]
+      },
+      "id": "node/904273072"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/904273145",
+        "amenity": "cafe",
+        "name": "NY Bagel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5035962,
+          35.9468925
+        ]
+      },
+      "id": "node/904273145"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/904523717",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6587108,
+          35.8960421
+        ]
+      },
+      "id": "node/904523717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/975734100",
+        "addr:city": "Cary",
+        "addr:housenumber": "1107",
+        "addr:postcode": "27511",
+        "addr:state": "NC",
+        "addr:street": "Walnut Street",
+        "addr:unit": "102",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "contact:phone": "+1 919 468 9908",
+        "contact:website": "http://www.starbucks.com/store/8578",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "smoking": "separated",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7626022,
+          35.7714912
+        ]
+      },
+      "id": "node/975734100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1171616246",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7072494,
+          35.8248574
+        ]
+      },
+      "id": "node/1171616246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1216186242",
+        "amenity": "cafe",
+        "cuisine": "turkish",
+        "name": "Turkish Delights"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6477009,
+          35.7826802
+        ]
+      },
+      "id": "node/1216186242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1278590483",
+        "amenity": "cafe",
+        "name": "Third Place"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6465826,
+          35.8049646
+        ]
+      },
+      "id": "node/1278590483"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1512497925",
+        "addr:city": "Chapel Hill",
+        "addr:housenumber": "138",
+        "addr:postcode": "27514",
+        "addr:state": "NC",
+        "addr:street": "East Franklin Street",
+        "amenity": "cafe",
+        "name": "Carolina Coffee Shop",
+        "source:addr": "Chapel Hill Open Data"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0544059,
+          35.9134844
+        ]
+      },
+      "id": "node/1512497925"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1595817324",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9293957,
+          36.0577864
+        ]
+      },
+      "id": "node/1595817324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1650540188",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Friend's Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.053069,
+          35.905603
+        ]
+      },
+      "id": "node/1650540188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1655040653",
+        "addr:city": "Carrboro",
+        "addr:housenumber": "401",
+        "addr:postcode": "27510",
+        "addr:state": "NC",
+        "addr:street": "East Main Street",
+        "amenity": "cafe",
+        "contact:phone": "+1 (919) 929-0445",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Jessee's",
+        "website": "http://jesseescoffee.com/",
+        "wifi": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0666479,
+          35.9107734
+        ]
+      },
+      "id": "node/1655040653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1862352694",
+        "amenity": "cafe",
+        "name": "Atrium Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0543796,
+          35.90564
+        ]
+      },
+      "id": "node/1862352694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1908754791",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cup a Joe",
+        "wifi": "free"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6756861,
+          35.7794442
+        ]
+      },
+      "id": "node/1908754791"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1926599961",
+        "addr:city": "Carrboro",
+        "addr:housenumber": "101",
+        "addr:postcode": "27510",
+        "addr:state": "NC",
+        "addr:street": "South Greensboro Street",
+        "alt_name": "Open Eye",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Open Eye Cafe",
+        "opening_hours": "Mo-Th 07:00-23:00; Fr,Sa 07:00-24:00; Su 08:00-23:00",
+        "website": "https://openeyecafe.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0720353,
+          35.9098364
+        ]
+      },
+      "id": "node/1926599961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1936233953",
+        "amenity": "cafe",
+        "name": "Keva Juice"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.643294,
+          35.8363638
+        ]
+      },
+      "id": "node/1936233953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1936235156",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6427494,
+          35.8370105
+        ]
+      },
+      "id": "node/1936235156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1937486104",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6425134,
+          35.8362507
+        ]
+      },
+      "id": "node/1937486104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1938640026",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6430777,
+          35.8399058
+        ]
+      },
+      "id": "node/1938640026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1956714438",
+        "amenity": "cafe",
+        "name": "Genomic Cafe",
+        "website": "http://dining2014.csit.unc.edu/WheretoEat/GenomicCafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.050797,
+          35.9077373
+        ]
+      },
+      "id": "node/1956714438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1982192787",
+        "amenity": "cafe",
+        "name": "3CUPS",
+        "website": "http://www.3cups.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0270244,
+          35.9324987
+        ]
+      },
+      "id": "node/1982192787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1990604457",
+        "addr:city": "Chapel Hill",
+        "addr:housenumber": "140",
+        "addr:postcode": "27514",
+        "addr:state": "NC",
+        "addr:street": "East Franklin Street",
+        "amenity": "cafe",
+        "name": "Sugarland",
+        "source:addr": "Chapel Hill Open Data",
+        "website": "http://www.sugarlandchapelhill.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0543132,
+          35.9135224
+        ]
+      },
+      "id": "node/1990604457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2022390007",
+        "addr:city": "Chapel Hill",
+        "addr:country": "US",
+        "addr:housenumber": "601",
+        "addr:postcode": "27517",
+        "addr:state": "NC",
+        "addr:street": "Meadowmont Village Circle",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "name": "Cafe Carolina and Bakery",
+        "phone": "+1 919 945 8811",
+        "website": "https://cafecarolina.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0103022,
+          35.905222
+        ]
+      },
+      "id": "node/2022390007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2036729055",
+        "amenity": "cafe",
+        "contact:phone": "+1 919 467 1259",
+        "contact:website": "http://www.starbucks.com/store/9958/",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "opening_hours": "Mo-Sa 07:00-20:00; Su 07:00-19:00",
+        "ref": "9958"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8520872,
+          35.7902918
+        ]
+      },
+      "id": "node/2036729055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2112768943",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9198199,
+          36.0093777
+        ]
+      },
+      "id": "node/2112768943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2118729725",
+        "addr:city": "Cary",
+        "addr:country": "US",
+        "addr:housenumber": "966",
+        "addr:postcode": "27513",
+        "addr:state": "NC",
+        "addr:street": "High House Road",
+        "air_conditioning": "yes",
+        "amenity": "cafe",
+        "cuisine": "bubble_tea",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Kung Fu Tea",
+        "outdoor_seating": "no",
+        "wikidata": "Q66023886"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8266982,
+          35.7889987
+        ]
+      },
+      "id": "node/2118729725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2121961572",
+        "addr:city": "Cary",
+        "addr:housenumber": "315",
+        "addr:postcode": "27518",
+        "addr:state": "NC",
+        "addr:street": "Crossroads Boulevard",
+        "amenity": "cafe",
+        "contact:email": "coffeeandcrepes@aol.com",
+        "contact:phone": "+1 919 233 0288",
+        "contact:website": "http://www.coffeeandcrepes.com/",
+        "cuisine": "crepe",
+        "name": "Coffee & Crepes",
+        "opening_hours": "Mo-Th 07:00-21:00; Fr-Sa 07:00-22:30; Su 09:00-20:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7379521,
+          35.7611728
+        ]
+      },
+      "id": "node/2121961572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2121961594",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "contact:phone": "+1 919 372 1405",
+        "contact:website": "http://www.starbucks.com/store/16248/",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "08:00-20:00",
+        "ref": "16248",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8783196,
+          35.7447564
+        ]
+      },
+      "id": "node/2121961594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2121961778",
+        "amenity": "cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7616936,
+          35.7695651
+        ]
+      },
+      "id": "node/2121961778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2239164859",
+        "amenity": "cafe",
+        "contact:email": "info@lafarmbakery.com",
+        "contact:fax": "+1 919 869 1396",
+        "contact:phone": "+1 919 657 0657",
+        "contact:website": "http://www.lafarmbakery.com/",
+        "name": "La Farm Bakery",
+        "opening_hours": "Mo-Sa 07:00-19:00;Su 07:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8274423,
+          35.7907022
+        ]
+      },
+      "id": "node/2239164859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2239164955",
+        "amenity": "fast_food",
+        "cuisine": "coffee_shop",
+        "name": "McCafé"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8297758,
+          35.7891643
+        ]
+      },
+      "id": "node/2239164955"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2240788252",
+        "addr:country": "US",
+        "addr:housenumber": "1983",
+        "addr:state": "NC",
+        "addr:street": "High House Road",
+        "amenity": "cafe",
+        "contact:email": "customerservice@cremacoffee.org",
+        "contact:phone": "+1 919 380 1840",
+        "contact:website": "http://www.cremacoffeebakery.com/",
+        "cuisine": "coffee_shop",
+        "name": "Crema Coffee",
+        "opening_hours": "Mo-Th 06:30-18:00;Fr 06:30-14:00;Sa 07:00-12:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8481249,
+          35.7885142
+        ]
+      },
+      "id": "node/2240788252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2315429919",
+        "addr:city": "Cary",
+        "addr:housenumber": "1904",
+        "addr:postcode": "27513",
+        "addr:state": "NC",
+        "addr:street": "Northwest Maynard Road",
+        "amenity": "cafe",
+        "contact:phone": "+1 919 481 9124",
+        "contact:website": "http://www.starbucks.com/store/17746/",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7951359,
+          35.7987254
+        ]
+      },
+      "id": "node/2315429919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2470635859",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Common Grounds Café & Creamery",
+        "source": "local knowledge",
+        "website": "http://www.ncsudining.com/locations/restaurants-cafes/hunt-library/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6765448,
+          35.7696433
+        ]
+      },
+      "id": "node/2470635859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2470637788",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Port City Java Cofeehouse Café"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6738559,
+          35.7717111
+        ]
+      },
+      "id": "node/2470637788"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2489778944",
+        "addr:city": "Hillsborough",
+        "addr:housenumber": "120",
+        "addr:postcode": "27278",
+        "addr:state": "NC",
+        "addr:street": "West King Street",
+        "contact:phone": "(919) 732-8056",
+        "contact:website": "https://www.facebook.com/pages/Hillsborough-Cup-A-Joe/237445616451",
+        "cuisine": "coffee_shop",
+        "diet:vegetarian": "yes",
+        "name": "Lisa Lea's",
+        "opening_hours": "Mo-Fr 06:00-19:00; Sa,Su 07:00-19:00",
+        "shop": "hairdresser",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.1002379,
+          36.0754745
+        ]
+      },
+      "id": "node/2489778944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2523800900",
+        "addr:city": "Chapel Hill",
+        "addr:housenumber": "1129",
+        "addr:postcode": "27514",
+        "addr:state": "NC",
+        "addr:street": "Weaver Dairy Road",
+        "addr:unit": "AD",
+        "amenity": "cafe",
+        "name": "Joe Van Gogh",
+        "source:addr": "Chapel Hill Open Data"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0523841,
+          35.9629586
+        ]
+      },
+      "id": "node/2523800900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2532545958",
+        "addr:city": "Morrisville",
+        "addr:country": "US",
+        "addr:housenumber": "3608",
+        "addr:postcode": "27560",
+        "addr:state": "NC",
+        "addr:street": "Davis Drive",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8476008,
+          35.8216311
+        ]
+      },
+      "id": "node/2532545958"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2567480260",
+        "addr:city": "Carrboro",
+        "addr:housenumber": "200",
+        "addr:postcode": "27510",
+        "addr:state": "NC",
+        "addr:street": "North Greensboro Street",
+        "addr:unit": "A-5",
+        "amenity": "cafe",
+        "contact:phone": "+1 (919) 904-7343",
+        "internet_access": "yes",
+        "level": "0",
+        "name": "Oasis In Carr Mill",
+        "opening_hours": "Mo-Fr 11:00-19:00; Sa 10:00-21:00; Su 10:00-18:00",
+        "website": "http://oasisincarrmill.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0713926,
+          35.9114483
+        ]
+      },
+      "id": "node/2567480260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2572497386",
+        "addr:city": "Carrboro",
+        "addr:housenumber": "100",
+        "addr:postcode": "27510",
+        "addr:state": "NC",
+        "addr:street": "East Weaver Street",
+        "amenity": "cafe",
+        "contact:phone": "+1 (919) 960-6776",
+        "cuisine": "coffee_shop",
+        "name": "Market Street Coffee & Ice Cream",
+        "website": "http://marketstcoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0716146,
+          35.9107672
+        ]
+      },
+      "id": "node/2572497386"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2574000771",
+        "addr:city": "Carrboro",
+        "addr:housenumber": "601",
+        "addr:postcode": "27510",
+        "addr:state": "NC",
+        "addr:street": "West Main Street",
+        "addr:unit": "C",
+        "amenity": "cafe",
+        "contact:phone": "+1 (919) 967-9398",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Looking Glass",
+        "website": "http://www.cafecarrboro.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0796508,
+          35.9132786
+        ]
+      },
+      "id": "node/2574000771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2576603437",
+        "addr:city": "Carrboro",
+        "addr:housenumber": "901",
+        "addr:postcode": "27510",
+        "addr:state": "NC",
+        "addr:street": "West Main Street",
+        "amenity": "cafe",
+        "contact:phone": "+1 (919) 932-5070",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Johnny's",
+        "website": "http://johnnysgonefishing.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0870406,
+          35.9156365
+        ]
+      },
+      "id": "node/2576603437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2668372864",
+        "addr:city": "Apex",
+        "addr:country": "US",
+        "addr:housename": "Salem Street Prominade",
+        "addr:housenumber": "219",
+        "addr:postcode": "27502",
+        "addr:state": "NC",
+        "addr:street": "North Salem Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Common Grounds Coffee House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8507308,
+          35.7321538
+        ]
+      },
+      "id": "node/2668372864"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2701277011",
+        "addr:city": "Durham",
+        "addr:country": "US",
+        "addr:housenumber": "5319",
+        "addr:postcode": "27707",
+        "addr:state": "NC",
+        "addr:street": "New Hope Commons Drive",
+        "addr:unit": "105",
+        "alt_name": "Mount Moriah",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Th 05:30-21:30; Fr-Sa 05:30-22:00; Su 06:00-21:00",
+        "phone": "+1 919 493 2471",
+        "source:addr": "Durham Open Data",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com/store-locator/search/detail/17878"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.99381,
+          35.9543282
+        ]
+      },
+      "id": "node/2701277011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2763321665",
+        "addr:city": "Chapel Hill",
+        "addr:housenumber": "431",
+        "addr:postcode": "27516",
+        "addr:state": "NC",
+        "addr:street": "West Franklin Street",
+        "addr:unit": "120",
+        "amenity": "cafe",
+        "name": "Something Different Café",
+        "opening_hours": "Mo-Sa 07:00-19:00",
+        "payment:american_express": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0627506,
+          35.9100131
+        ]
+      },
+      "id": "node/2763321665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2871606686",
+        "addr:city": "Cary",
+        "addr:housenumber": "8204",
+        "addr:postcode": "27518",
+        "addr:state": "NC",
+        "addr:street": "Tryon Woods Drive",
+        "addr:suite": "120",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "phone": "(919) 851-6439",
+        "website": "https://www.starbucks.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7418319,
+          35.7461501
+        ]
+      },
+      "id": "node/2871606686"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2906198263",
+        "amenity": "cafe",
+        "name": "J.Q.'s Corner Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7912608,
+          35.8791711
+        ]
+      },
+      "id": "node/2906198263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2921397022",
+        "addr:city": "Raleigh",
+        "addr:housenumber": "500",
+        "addr:postcode": "27601",
+        "addr:state": "NC",
+        "addr:street": "Fayetteville Street",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "opening_hours": "07:00-19:00",
+        "phone": "+1-919-334-9894",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6396649,
+          35.7738556
+        ]
+      },
+      "id": "node/2921397022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3042465478",
+        "addr:city": "Durham",
+        "addr:country": "US",
+        "addr:housenumber": "401",
+        "addr:postcode": "27701",
+        "addr:state": "NC",
+        "addr:street": "Foster Street",
+        "addr:unit": "A",
+        "amenity": "cafe",
+        "name": "Daisy Cakes",
+        "survey:date": "2014-05-17"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9016931,
+          35.9994165
+        ]
+      },
+      "id": "node/3042465478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3189413413",
+        "addr:city": "Raleigh",
+        "addr:country": "US",
+        "addr:housenumber": "936",
+        "addr:postcode": "27604",
+        "addr:state": "NC",
+        "addr:street": "North Blount Street",
+        "amenity": "cafe",
+        "contact:email": "contactus@escazuchocolates.com",
+        "contact:instagram": "escazuchocolates",
+        "contact:phone": "+1-919-832-3433",
+        "contact:website": "https://escazuchocolates.com",
+        "name": "Escazu Chocolate",
+        "opening_hours": "Mo closed; Tu-Th 11:00-21:00; Fr-Sa 11:00-22:00; Su 11:00-18:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6354009,
+          35.7931479
+        ]
+      },
+      "id": "node/3189413413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3248742644",
+        "addr:city": "Raleigh",
+        "addr:housenumber": "421",
+        "addr:postcode": "27601",
+        "addr:state": "NC",
+        "addr:street": "Fayetteville Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop;ice_cream",
+        "name": "Crema"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6389835,
+          35.7742094
+        ]
+      },
+      "id": "node/3248742644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3248742654",
+        "addr:city": "Raleigh",
+        "addr:housenumber": "411",
+        "addr:postcode": "27601",
+        "addr:state": "NC",
+        "addr:street": "Fayetteville Street",
+        "amenity": "cafe",
+        "cuisine": "sandwich",
+        "name": "Plaza Cafe",
+        "phone": "+1-919-758-8759"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6391594,
+          35.7749856
+        ]
+      },
+      "id": "node/3248742654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3353211810",
+        "addr:city": "Raleigh",
+        "addr:housenumber": "2604",
+        "addr:postcode": "27607",
+        "addr:state": "NC",
+        "addr:street": "Hillsborough Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Saxbys Coffee",
+        "opening_hours": "Mo-Fr 6:30-22:00; Sa 8:00-22:00; Su 9:00-21:00",
+        "phone": "+1-919-977-0265",
+        "website": "https://saxbyscoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6701758,
+          35.7883976
+        ]
+      },
+      "id": "node/3353211810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3391752475",
+        "amenity": "cafe",
+        "name": "Boba Baba Tea Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8463833,
+          35.7937338
+        ]
+      },
+      "id": "node/3391752475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3752759687",
+        "addr:city": "Raleigh",
+        "addr:housenumber": "300",
+        "addr:postcode": "27601",
+        "addr:state": "NC",
+        "addr:street": "West Hargett Street",
+        "addr:unit": "50",
+        "amenity": "cafe",
+        "cuisine": "coffee;tea;breakfast;lunch;pastry",
+        "internet_access": "yes",
+        "name": "A Place at the Table",
+        "opening_hours": "Mo-Sa 07:00-14:00",
+        "outdoor_seating": "yes",
+        "smoking": "outside",
+        "website": "https://tableraleigh.org/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6442483,
+          35.7785559
+        ]
+      },
+      "id": "node/3752759687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3872368080",
+        "amenity": "cafe",
+        "cuisine": "bagel",
+        "indoor": "yes",
+        "level": "2",
+        "name": "Alpine Bagel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0480012,
+          35.9102978
+        ]
+      },
+      "id": "node/3872368080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4128436170",
+        "amenity": "cafe",
+        "name": "Cafe Helios"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.647666,
+          35.7855632
+        ]
+      },
+      "id": "node/4128436170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4233902047",
+        "addr:city": "Durham",
+        "addr:housenumber": "2627",
+        "addr:postcode": "27705",
+        "addr:state": "NC",
+        "addr:street": "Hillsborough Road",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Cocoa Cinnamon",
+        "opening_hours": "Mo-Fr 07:00-18:00; Sa-Su 08:00-18:00",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "website": "https://littlewaves.coffee/pages/old-west-durham"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9301586,
+          36.0115807
+        ]
+      },
+      "id": "node/4233902047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4284196422",
+        "addr:city": "Durham",
+        "addr:housenumber": "2608",
+        "addr:postcode": "27705",
+        "addr:state": "NC",
+        "addr:street": "Erwin Road",
+        "amenity": "cafe",
+        "cuisine": "breakfast",
+        "internet_access": "yes",
+        "name": "Another Broken Egg Cafe",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9452343,
+          36.0091799
+        ]
+      },
+      "id": "node/4284196422"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4299406373",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5115288,
+          35.7964336
+        ]
+      },
+      "id": "node/4299406373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4398946906",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5834324,
+          35.697742
+        ]
+      },
+      "id": "node/4398946906"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4457356190",
+        "addr:city": "Morrisville",
+        "addr:country": "US",
+        "addr:housenumber": "3037",
+        "addr:postcode": "27560",
+        "addr:state": "NC",
+        "addr:street": "Village Market Place",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Th 05:30-22:00; Fr-Su 06:00-23:00",
+        "outdoor_seating": "no",
+        "phone": "+1 919 219 2205",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "http://starbucks.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8190582,
+          35.807228
+        ]
+      },
+      "id": "node/4457356190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4484280691",
+        "addr:city": "Cary",
+        "addr:country": "US",
+        "addr:housenumber": "1015",
+        "addr:postcode": "27519",
+        "addr:state": "NC",
+        "addr:street": "Parkside Main Street",
+        "amenity": "cafe",
+        "drive_through": "yes",
+        "name": "Starbucks",
+        "opening_hours": "Mo-Fr 08:30-20:00, Tu-Su 05:00-22:00; Sa 05:30-22:00; Su 05:30-21:00",
+        "phone": "+1 919 466 8062",
+        "takeaway": "yes",
+        "website": "https://www.starbucks.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8873158,
+          35.8463642
+        ]
+      },
+      "id": "node/4484280691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4514634690",
+        "addr:city": "Raleigh",
+        "addr:country": "US",
+        "addr:housenumber": "2051",
+        "addr:postcode": "27612",
+        "addr:state": "NC",
+        "addr:street": "West Millbrook Road",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "opening_hours": "Mo-Su 06:00-20:00",
+        "operator": "Starbucks",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6799591,
+          35.8571021
+        ]
+      },
+      "id": "node/4514634690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4529421425",
+        "addr:city": "Raleigh",
+        "addr:housenumber": "1908",
+        "addr:postcode": "27607",
+        "addr:state": "NC",
+        "addr:street": "Hillsborough Street",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Liquid State"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6617371,
+          35.7859869
+        ]
+      },
+      "id": "node/4529421425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4544087503",
+        "addr:city": "Raleigh",
+        "addr:country": "US",
+        "addr:housenumber": "134",
+        "addr:postcode": "27601",
+        "addr:state": "NC",
+        "addr:street": "East Martin Street",
+        "amenity": "cafe",
+        "contact:email": "info@42lawrence.com",
+        "contact:facebook": "https://www.facebook.com/42lawrence",
+        "contact:phone": "+1-919-322-1668",
+        "contact:website": "http://www.42lawrence.com/",
+        "name": "42 & Lawrence"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6368709,
+          35.7767257
+        ]
+      },
+      "id": "node/4544087503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4544100859",
+        "addr:city": "Raleigh",
+        "addr:country": "US",
+        "addr:housenumber": "2100",
+        "addr:postcode": "27607",
+        "addr:state": "NC",
+        "addr:street": "Hillsborough St",
+        "amenity": "cafe",
+        "contact:email": "info@jubalavillagecoffee.com",
+        "contact:phone": "+1-919-792-1767",
+        "contact:website": "http://www.jubalacoffee.com",
+        "name": "Jubala Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6632429,
+          35.786567
+        ]
+      },
+      "id": "node/4544100859"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4565492379",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "changing_table": "yes",
+        "cuisine": "coffee_shop",
+        "level": "0",
+        "name": "Starbucks",
+        "opening_hours": "Mo-Th 5:30-22:00; Fr-Sa 5:30-22:30; Su 6:00-20:00",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7807484,
+          35.9126433
+        ]
+      },
+      "id": "node/4565492379"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4629340404",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8152223,
+          35.8056424
+        ]
+      },
+      "id": "node/4629340404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4629663688",
+        "addr:city": "Durham",
+        "addr:housenumber": "1119",
+        "addr:postcode": "27703",
+        "addr:state": "NC",
+        "addr:street": "Slater Road",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "wlan",
+        "name": "Starbucks",
+        "opening_hours": "05:00-21:00",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8472609,
+          35.8792429
+        ]
+      },
+      "id": "node/4629663688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4675486921",
+        "amenity": "cafe",
+        "name": "Port City Java"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7043646,
+          35.797374
+        ]
+      },
+      "id": "node/4675486921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4675776565",
+        "amenity": "cafe",
+        "name": "Caribou Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7827396,
+          35.7710132
+        ]
+      },
+      "id": "node/4675776565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4833132847",
+        "addr:city": "Cary",
+        "addr:housenumber": "817",
+        "addr:postcode": "27513",
+        "addr:state": "NC",
+        "addr:street": "Bass Pro Ln",
+        "amenity": "cafe",
+        "cuisine": "smoothie",
+        "description": "Casual, health-conscious chain cafe featuring custom smoothies, sandwiches & wraps.",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Tropical Smoothie Café",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa 08:00-21:00; Su 10:30-21:00",
+        "outdoor_seating": "yes",
+        "phone": "(919)378-9333",
+        "smoking": "no",
+        "website": "https://www.tropicalsmoothiecafe.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7704912,
+          35.8308248
+        ]
+      },
+      "id": "node/4833132847"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5076295871",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "opening_hours": "Mo-Fr 07:00-24:00, Sa,Su 08:00-24:00",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0583162,
+          35.911932
+        ]
+      },
+      "id": "node/5076295871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5478725311",
+        "amenity": "cafe",
+        "name": "Cha House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.060638,
+          35.9114336
+        ]
+      },
+      "id": "node/5478725311"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5523893932",
+        "addr:city": "Cary",
+        "addr:housenumber": "204",
+        "addr:postcode": "27518",
+        "addr:state": "NC",
+        "addr:street": "Crossroads Boulevard",
+        "addr:unit": "200",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7410902,
+          35.7605635
+        ]
+      },
+      "id": "node/5523893932"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5583126739",
+        "amenity": "cafe",
+        "cuisine": "cafe",
+        "drive_through": "yes",
+        "name": "The Coffee Lodge",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4664809,
+          35.9181564
+        ]
+      },
+      "id": "node/5583126739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5643678986",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9586032,
+          35.9177719
+        ]
+      },
+      "id": "node/5643678986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5644388830",
+        "addr:city": "Durham",
+        "addr:housenumber": "4711",
+        "addr:postcode": "27713",
+        "addr:state": "NC",
+        "addr:street": "Hope Valley Road",
+        "addr:unit": "5A",
+        "amenity": "cafe",
+        "name": "Joe van Gogh",
+        "source:addr": "Durham Open Data",
+        "website": "https://www.joevangogh.com/pages/south-durham-woodcroft"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9570015,
+          35.9205491
+        ]
+      },
+      "id": "node/5644388830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5732093512",
+        "addr:city": "Hillsborough",
+        "addr:housenumber": "112",
+        "addr:postcode": "27278",
+        "addr:state": "NC",
+        "addr:street": "West King Street",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "name": "Cup-A-Joe",
+        "source:addr": "Chapel Hill Open Data"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0999884,
+          36.0755841
+        ]
+      },
+      "id": "node/5732093512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5732455974",
+        "addr:city": "Chapel Hill",
+        "addr:housenumber": "503",
+        "addr:postcode": "27517",
+        "addr:state": "NC",
+        "addr:street": "Meadowmont Village Circle",
+        "amenity": "cafe",
+        "brand": "Quickly",
+        "brand:en": "Quickly",
+        "brand:wikidata": "Q3771463",
+        "brand:wikipedia": "en:Quickly",
+        "brand:zh": "快可立",
+        "cuisine": "bubble_tea",
+        "name": "Quickly",
+        "name:en": "Quickly",
+        "name:zh": "快可立",
+        "source:addr": "Chapel Hill Open Data",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0107004,
+          35.9055283
+        ]
+      },
+      "id": "node/5732455974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5975458773",
+        "addr:city": "Garner",
+        "addr:housenumber": "507",
+        "addr:postcode": "27529",
+        "addr:state": "NC",
+        "addr:street": "Plaza Circle",
+        "amenity": "cafe",
+        "name": "Raleigh Business Center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6115437,
+          35.7050882
+        ]
+      },
+      "id": "node/5975458773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6049944185",
+        "amenity": "cafe",
+        "name": "Rise Biscuits & Donuts",
+        "opening_hours": "Mo-Su 07:00-14:00",
+        "website": "https://risebiscuitsdonuts.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7846994,
+          35.9084005
+        ]
+      },
+      "id": "node/6049944185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6050166170",
+        "amenity": "cafe",
+        "brand": "Caribou Coffee",
+        "brand:wikidata": "Q5039494",
+        "brand:wikipedia": "en:Caribou Coffee",
+        "cuisine": "coffee_shop",
+        "name": "Caribou Coffee",
+        "opening_hours": "Mo-Th 06:00-21:30; Fr 06:00-22:00; Sa 06:30-22:00; Su 06:30-21:00",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7845626,
+          35.9088009
+        ]
+      },
+      "id": "node/6050166170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6289845889",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.9951331,
+          35.9545024
+        ]
+      },
+      "id": "node/6289845889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6380044105",
+        "addr:city": "Raleigh",
+        "addr:country": "US",
+        "addr:housenumber": "2428",
+        "addr:postcode": "27607",
+        "addr:state": "NC",
+        "addr:street": "Hillsborough Street",
+        "amenity": "cafe",
+        "contact:phone": "+1-919-828-4567",
+        "contact:website": "http://www.globalvillagecoffee.com",
+        "cuisine": "tea;coffee_shop",
+        "diet:organic": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "level": "0",
+        "name": "Global Village Organic Coffee",
+        "note": "Fair Trade, all-natural",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-16:30; Su closed",
+        "outdoor_seating": "no",
+        "source": "survey;website",
+        "start_date": "2000"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6677588,
+          35.7878278
+        ]
+      },
+      "id": "node/6380044105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6424323431",
+        "amenity": "cafe",
+        "cuisine": "bagel",
+        "name": "New York Bages"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7816153,
+          35.7358981
+        ]
+      },
+      "id": "node/6424323431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6561325875",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6202031,
+          35.8665382
+        ]
+      },
+      "id": "node/6561325875"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6568292143",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5430634,
+          35.966403
+        ]
+      },
+      "id": "node/6568292143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6571106908",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5804158,
+          35.8557014
+        ]
+      },
+      "id": "node/6571106908"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6589647032",
+        "addr:city": "Clayton",
+        "addr:housenumber": "8878",
+        "addr:postcode": "27527",
+        "addr:state": "NC",
+        "addr:street": "US 70 Bus E",
+        "amenity": "cafe",
+        "name": "Skylines Cafe",
+        "phone": "(919) 550-7619"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4279422,
+          35.6273166
+        ]
+      },
+      "id": "node/6589647032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6624677751",
+        "addr:city": "Clayton",
+        "addr:housenumber": "11453",
+        "addr:postcode": "27520",
+        "addr:street": "US 70 Highway East",
+        "amenity": "cafe",
+        "cuisine": "american",
+        "name": "Corner Kitch'n"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4726542,
+          35.6513906
+        ]
+      },
+      "id": "node/6624677751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6643310171",
+        "addr:city": "Clayton",
+        "addr:housenumber": "408",
+        "addr:postcode": "27520",
+        "addr:street": "East Second Street",
+        "amenity": "cafe",
+        "name": "The Flipside Restaurant & Taproom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4567837,
+          35.6502045
+        ]
+      },
+      "id": "node/6643310171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6643339259",
+        "addr:city": "Clayton",
+        "addr:housenumber": "120",
+        "addr:postcode": "27520",
+        "addr:street": "East Main Street",
+        "amenity": "cafe",
+        "name": "Sherry's Signature Cheesecakes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4589777,
+          35.6528483
+        ]
+      },
+      "id": "node/6643339259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6919866540",
+        "addr:housenumber": "8246",
+        "addr:street": "Cleveland Road",
+        "amenity": "cafe",
+        "name": "C3 Cafe",
+        "phone": "9199343551"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5163,
+          35.5685
+        ]
+      },
+      "id": "node/6919866540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6993756773",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6707183,
+          35.7834778
+        ]
+      },
+      "id": "node/6993756773"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7003585459",
+        "addr:city": "Raleigh",
+        "addr:housenumber": "1614",
+        "addr:postcode": "27604",
+        "addr:state": "NC",
+        "addr:street": "Automotive Way",
+        "amenity": "cafe",
+        "cuisine": "coffee_shop",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Pine State Coffe",
+        "opening_hours": "Tu-Su 0700-1900",
+        "outdoor_seating": "yes",
+        "website": "https://www.pinestatecoffee.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6235822,
+          35.8000647
+        ]
+      },
+      "id": "node/7003585459"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7105920248",
+        "amenity": "cafe",
+        "name": "Sir Walter Coffee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6370845,
+          35.7756429
+        ]
+      },
+      "id": "node/7105920248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7121023387",
+        "amenity": "cafe",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Joe van Gogh",
+        "outdoor_seating": "yes",
+        "website": "https://www.joevangogh.com/pages/durham-west-end"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.91706,
+          35.9969883
+        ]
+      },
+      "id": "node/7121023387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7228260014",
+        "addr:city": "Clayton",
+        "addr:housenumber": "436",
+        "addr:postcode": "27520",
+        "addr:state": "NC",
+        "addr:street": "East Main Street",
+        "amenity": "cafe",
+        "name": "Chefella's Cafe and Event Planning",
+        "phone": "919-359-2884"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4553563,
+          35.6497145
+        ]
+      },
+      "id": "node/7228260014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7256023240",
+        "amenity": "cafe",
+        "brand": "Starbucks",
+        "brand:wikidata": "Q37158",
+        "brand:wikipedia": "en:Starbucks",
+        "cuisine": "coffee_shop",
+        "name": "Starbucks",
+        "official_name": "Starbucks Coffee",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.497726,
+          35.6664849
+        ]
+      },
+      "id": "node/7256023240"
+    }
+  ]
+}
